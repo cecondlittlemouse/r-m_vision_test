@@ -1,0 +1,10 @@
+/home/huhao/rm_vision/build/camera/CMakeFiles/uninstall.dir
+/home/huhao/rm_vision/build/camera/CMakeFiles/camera_uninstall.dir
+/home/huhao/rm_vision/build/camera/CMakeFiles/camera.dir
+/home/huhao/rm_vision/build/camera/CMakeFiles/test.dir
+/home/huhao/rm_vision/build/camera/CMakeFiles/edit_cache.dir
+/home/huhao/rm_vision/build/camera/CMakeFiles/rebuild_cache.dir
+/home/huhao/rm_vision/build/camera/CMakeFiles/list_install_components.dir
+/home/huhao/rm_vision/build/camera/CMakeFiles/install.dir
+/home/huhao/rm_vision/build/camera/CMakeFiles/install/local.dir
+/home/huhao/rm_vision/build/camera/CMakeFiles/install/strip.dir

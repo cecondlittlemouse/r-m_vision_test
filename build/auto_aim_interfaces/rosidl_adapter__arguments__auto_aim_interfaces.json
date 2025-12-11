@@ -1,0 +1,14 @@
+{
+  "package_name": "auto_aim_interfaces",
+  "non_idl_tuples": [
+    "/home/huhao/rm_vision/rm_auto_aim/auto_aim_interfaces:msg/Armor.msg",
+    "/home/huhao/rm_vision/rm_auto_aim/auto_aim_interfaces:msg/Armors.msg",
+    "/home/huhao/rm_vision/rm_auto_aim/auto_aim_interfaces:msg/Target.msg",
+    "/home/huhao/rm_vision/rm_auto_aim/auto_aim_interfaces:msg/DebugLight.msg",
+    "/home/huhao/rm_vision/rm_auto_aim/auto_aim_interfaces:msg/DebugLights.msg",
+    "/home/huhao/rm_vision/rm_auto_aim/auto_aim_interfaces:msg/DebugArmor.msg",
+    "/home/huhao/rm_vision/rm_auto_aim/auto_aim_interfaces:msg/DebugArmors.msg",
+    "/home/huhao/rm_vision/rm_auto_aim/auto_aim_interfaces:msg/TrackerInfo.msg",
+    "/home/huhao/rm_vision/rm_auto_aim/auto_aim_interfaces:msg/TimeInfo.msg"
+  ]
+}

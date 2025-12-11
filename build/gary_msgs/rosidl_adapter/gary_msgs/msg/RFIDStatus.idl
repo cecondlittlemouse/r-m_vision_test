@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gary_msgs/msg/RFIDStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module gary_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains RFID status data received from the referee system")
+    struct RFIDStatus {
+      std_msgs::msg::Header header;
+
+      boolean base_buff_point;
+
+      boolean elevated_ground_buff_point;
+
+      boolean power_rune_buff_point;
+
+      boolean launch_ramp_buff_point;
+
+      boolean outpost_buff_point;
+
+      boolean hp_recovery_buff_point;
+
+      boolean engineer_robot_revival_card;
+    };
+  };
+};

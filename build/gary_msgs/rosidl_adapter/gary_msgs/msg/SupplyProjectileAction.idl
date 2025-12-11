@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gary_msgs/msg/SupplyProjectileAction.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module gary_msgs {
+  module msg {
+    module SupplyProjectileAction_Constants {
+      const uint8 SUPPLY_ROBOT_NONE = 0;
+      const uint8 SUPPLY_ROBOT_RED1 = 1;
+      const uint8 SUPPLY_ROBOT_RED2 = 2;
+      const uint8 SUPPLY_ROBOT_RED3 = 3;
+      const uint8 SUPPLY_ROBOT_RED4 = 4;
+      const uint8 SUPPLY_ROBOT_RED5 = 5;
+      const uint8 SUPPLY_ROBOT_BLUE1 = 101;
+      const uint8 SUPPLY_ROBOT_BLUE2 = 102;
+      const uint8 SUPPLY_ROBOT_BLUE3 = 103;
+      const uint8 SUPPLY_ROBOT_BLUE4 = 104;
+      const uint8 SUPPLY_ROBOT_BLUE5 = 105;
+      const uint8 SUPPLY_PROJECTILE_STEP_CLOSE = 0;
+      const uint8 SUPPLY_PROJECTILE_STEP_PREPARE = 1;
+      const uint8 SUPPLY_PROJECTILE_STEP_FALLING = 2;
+    };
+    @verbatim (language="comment", text=
+      "This message contains supply projectile action data received from the referee system")
+    struct SupplyProjectileAction {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "supply projectile id")
+      uint8 supply_projectile_id;
+
+      @verbatim (language="comment", text=
+        "supply robot id, see enum below")
+      uint8 supply_robot_id;
+
+      @verbatim (language="comment", text=
+        "supply projectile step, see enum below")
+      uint8 supply_projectile_step;
+
+      @verbatim (language="comment", text=
+        "supply bullet number")
+      uint8 supply_bullet_num;
+    };
+  };
+};

@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gary_msgs/msg/DartClientCmd.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module gary_msgs {
+  module msg {
+    module DartClientCmd_Constants {
+      const uint8 LAUNCH_STATUS_OPENED = 0;
+      const uint8 LAUNCH_STATUS_CLOSED = 1;
+      const uint8 LAUNCH_STATUS_IN_ACTION = 2;
+      const uint8 ATTACK_TARGET_OUTPOST = 0;
+      const uint8 ATTACK_TARGET_BASE = 1;
+    };
+    @verbatim (language="comment", text=
+      "This message contains dart client command data received from the referee system")
+    struct DartClientCmd {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "launch status, see enum below")
+      uint8 launch_status;
+
+      @verbatim (language="comment", text=
+        "attack target, see enum below")
+      uint8 attack_target;
+
+      @verbatim (language="comment", text=
+        "the remaining time of the game when switching targets, in seconds")
+      uint16 target_change_time;
+
+      @verbatim (language="comment", text=
+        "the remaining time of the game when the operator confirm to launch, in seconds")
+      uint16 operate_launch_cmd_time;
+    };
+  };
+};

@@ -1,0 +1,3 @@
+Invoking command in '/home/huhao/rm_vision/build/joint_tf_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huhao/rm_vision/tf_change -DCMAKE_INSTALL_PREFIX=/home/huhao/rm_vision/install/joint_tf_publisher
+Invoked command in '/home/huhao/rm_vision/build/joint_tf_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huhao/rm_vision/tf_change -DCMAKE_INSTALL_PREFIX=/home/huhao/rm_vision/install/joint_tf_publisher
+Invoking command in '/home/huhao/rm_vision/build/joint_tf_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huhao/rm_vision/build/joint_tf_publisher -- -j6 -l6

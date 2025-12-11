@@ -1,0 +1,1 @@
+Invoking command in '/home/huhao/rm_vision/build/gary_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huhao/rm_vision/gary_msgs -DCMAKE_INSTALL_PREFIX=/home/huhao/rm_vision/install/gary_msgs

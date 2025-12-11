@@ -1,0 +1,4 @@
+Invoking command in '/home/huhao/rm_vision/build/camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huhao/rm_vision/camera -DCMAKE_INSTALL_PREFIX=/home/huhao/rm_vision/install/camera
+Invoked command in '/home/huhao/rm_vision/build/camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huhao/rm_vision/camera -DCMAKE_INSTALL_PREFIX=/home/huhao/rm_vision/install/camera
+Invoking command in '/home/huhao/rm_vision/build/camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huhao/rm_vision/build/camera -- -j6 -l6
+Invoked command in '/home/huhao/rm_vision/build/camera' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huhao/rm_vision/build/camera -- -j6 -l6

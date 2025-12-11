@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gary_msgs/msg/RobotHurt.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module gary_msgs {
+  module msg {
+    module RobotHurt_Constants {
+      const uint8 HURT_TYPE_ARMOR_DAMAGE = 0;
+      const uint8 HURT_TYPE_MODULE_OFFLINE = 1;
+      const uint8 HURT_TYPE_SHOOT_OVER_SPEED = 2;
+      const uint8 HURT_TYPE_SHOOT_OVER_HEAT = 3;
+      const uint8 HURT_TYPE_CHASSIS_OVER_POWER = 4;
+      const uint8 HURT_TYPE_ARMOR_COLLISION = 5;
+    };
+    @verbatim (language="comment", text=
+      "This message contains robot hurt data received from the referee system")
+    struct RobotHurt {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "hurt type, see enum below")
+      uint8 hurt_type;
+
+      @verbatim (language="comment", text=
+        "armor id")
+      uint8 armor_id;
+    };
+  };
+};

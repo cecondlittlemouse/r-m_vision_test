@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ba7aa86708c84158387a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "auto_aim_interfaces__py",
+					"jsonFile" : "directory-auto_aim_interfaces__py-66f9205290f2fed4e409.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/huhao/rm_vision/build/auto_aim_interfaces/auto_aim_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "auto_aim_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_auto_aim_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_auto_aim_interfaces_egg-635e263f17fec84a7ddb.json",
+					"name" : "ament_cmake_python_build_auto_aim_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_auto_aim_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_auto_aim_interfaces-9847afdad9b905dc3f46.json",
+					"name" : "ament_cmake_python_copy_auto_aim_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces-c4f8ce3b8cb124275a83.json",
+					"name" : "auto_aim_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__cpp-65a416554e78bd640feb.json",
+					"name" : "auto_aim_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "auto_aim_interfaces__py::@7d42394fc9c2e1d152d7",
+					"jsonFile" : "target-auto_aim_interfaces__py-00252846b7912318c458.json",
+					"name" : "auto_aim_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_generator_c-e0dab99e743df3322b3f.json",
+					"name" : "auto_aim_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_generator_py-07e43574466fca8b737b.json",
+					"name" : "auto_aim_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_c-1049f8ac6eadb1cc38df.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_c__pyext-43ded204d6e68a898c29.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_cpp-78813ae55a9ccc01863c.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_fastrtps_c-8c9a38459413c7b89a58.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext-6cd664454c40e0668730.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp-8173786a0075809a659b.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_introspection_c-4d6c303d1e5e5c7b75ae.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext-31557deca3a2087b7121.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_introspection_cpp-de44f2d7163705d23426.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces_uninstall-2682d12c65cb94ea007e.json",
+					"name" : "auto_aim_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4e72a16aed5b12aeacc1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/huhao/rm_vision/build/auto_aim_interfaces",
+		"source" : "/home/huhao/rm_vision/rm_auto_aim/auto_aim_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "mutex": "cpp",
+        "stop_token": "cpp",
+        "thread": "cpp",
+        "variant": "cpp",
+        "core": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "deque": "cpp",
+        "vector": "cpp"
+    }
+}

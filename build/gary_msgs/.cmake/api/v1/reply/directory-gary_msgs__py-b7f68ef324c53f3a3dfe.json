@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gary_msgs__py",
+		"source" : "/home/huhao/rm_vision/build/gary_msgs/gary_msgs__py"
+	}
+}

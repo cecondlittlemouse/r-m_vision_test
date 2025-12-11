@@ -1,0 +1,49 @@
+[0.026s] Invoking command in '/home/huhao/rm_vision/build/joint_tf_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huhao/rm_vision/tf_change -DCMAKE_INSTALL_PREFIX=/home/huhao/rm_vision/install/joint_tf_publisher
+[0.093s] -- The C compiler identification is GNU 11.4.0
+[0.148s] -- The CXX compiler identification is GNU 11.4.0
+[0.154s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.222s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.223s] -- Detecting C compile features
+[0.223s] -- Detecting C compile features - done
+[0.226s] -- Detecting CXX compiler ABI info
+[0.304s] -- Detecting CXX compiler ABI info - done
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.318s] -- Detecting CXX compile features
+[0.318s] -- Detecting CXX compile features - done
+[0.323s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.454s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.565s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.596s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.601s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.611s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.677s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.679s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.748s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.795s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.844s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.851s] -- Looking for pthread.h
+[0.946s] -- Looking for pthread.h - found
+[0.946s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.992s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.993s] -- Found Threads: TRUE  
+[1.038s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.068s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.195s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.276s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.276s] -- Configured cppcheck include dirs: 
+[1.276s] -- Configured cppcheck exclude dirs and/or files: 
+[1.277s] -- Added test 'lint_cmake' to check CMake code style
+[1.279s] -- Added test 'uncrustify' to check C / C++ code style
+[1.279s] -- Configured uncrustify additional arguments: 
+[1.280s] -- Added test 'xmllint' to check XML markup files
+[1.281s] -- Configuring done
+[1.298s] -- Generating done
+[1.309s] -- Build files have been written to: /home/huhao/rm_vision/build/joint_tf_publisher
+[1.327s] Invoked command in '/home/huhao/rm_vision/build/joint_tf_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huhao/rm_vision/tf_change -DCMAKE_INSTALL_PREFIX=/home/huhao/rm_vision/install/joint_tf_publisher
+[1.327s] Invoking command in '/home/huhao/rm_vision/build/joint_tf_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huhao/rm_vision/build/joint_tf_publisher -- -j6 -l6
+[1.370s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_tf_publisher.dir/src/joint_tf_publisher.cpp.o[0m
+[6.954s] [100%] [32m[1mLinking CXX executable joint_tf_publisher[0m
+[7.375s] [100%] Built target joint_tf_publisher
