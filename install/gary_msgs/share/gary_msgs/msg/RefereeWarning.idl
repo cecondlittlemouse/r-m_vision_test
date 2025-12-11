@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gary_msgs/msg/RefereeWarning.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module gary_msgs {
+  module msg {
+    module RefereeWarning_Constants {
+      const uint8 LEVEL_YELLOW = 0;
+      const uint8 LEVEL_RED = 0;
+      const uint8 LEVEL_LOSE_GAME = 0;
+      const uint8 FOUL_ROBOT_ID_ALL = 0;
+      const uint8 FOUL_ROBOT_ID_RED1_HERO = 1;
+      const uint8 FOUL_ROBOT_ID_RED2_ENGINEER = 2;
+      const uint8 FOUL_ROBOT_ID_RED3_INFANTRY = 3;
+      const uint8 FOUL_ROBOT_ID_RED4_INFANTRY = 4;
+      const uint8 FOUL_ROBOT_ID_RED5_INFANTRY = 5;
+      const uint8 FOUL_ROBOT_ID_RED6_AERIAL = 6;
+      const uint8 FOUL_ROBOT_ID_RED7_SENTRY = 7;
+      const uint8 FOUL_ROBOT_ID_BLUE1_HERO = 101;
+      const uint8 FOUL_ROBOT_ID_BLUE2_ENGINEER = 102;
+      const uint8 FOUL_ROBOT_ID_BLUE3_INFANTRY = 103;
+      const uint8 FOUL_ROBOT_ID_BLUE4_INFANTRY = 104;
+      const uint8 FOUL_ROBOT_ID_BLUE5_INFANTRY = 105;
+      const uint8 FOUL_ROBOT_ID_BLUE6_AERIAL = 106;
+      const uint8 FOUL_ROBOT_ID_BLUE7_SENTRY = 107;
+    };
+    @verbatim (language="comment", text=
+      "This message contains referee warning data received from the referee system")
+    struct RefereeWarning {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "warning level, see enum below")
+      uint8 level;
+
+      @verbatim (language="comment", text=
+        "foul robot id, see enum below")
+      uint8 foul_robot_id;
+    };
+  };
+};

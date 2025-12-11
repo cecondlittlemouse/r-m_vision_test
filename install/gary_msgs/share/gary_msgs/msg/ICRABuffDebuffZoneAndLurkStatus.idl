@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gary_msgs/msg/ICRABuffDebuffZoneAndLurkStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module gary_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains ICRA buff debuff zone and lurk status data received from the referee system")
+    struct ICRABuffDebuffZoneAndLurkStatus {
+      std_msgs::msg::Header header;
+
+      boolean f1_zone_status;
+
+      uint8 f1_zone_buff_debuff_status;
+
+      boolean f2_zone_status;
+
+      uint8 f2_zone_buff_debuff_status;
+
+      boolean f3_zone_status;
+
+      uint8 f3_zone_buff_debuff_status;
+
+      boolean f4_zone_status;
+
+      uint8 f4_zone_buff_debuff_status;
+
+      boolean f5_zone_status;
+
+      uint8 f5_zone_buff_debuff_status;
+
+      boolean f6_zone_status;
+
+      uint8 f6_zone_buff_debuff_status;
+
+      uint16 red1_bullet_left;
+
+      uint16 red2_bullet_left;
+
+      uint16 blue1_bullet_left;
+
+      uint16 blue2_bullet_left;
+
+      uint8 lurk_mode;
+    };
+  };
+};

@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_tf_publisher[0m
+[100%] Built target joint_tf_publisher
+-- Install configuration: ""
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/lib/joint_tf_publisher/joint_tf_publisher
+-- Set runtime path of "/home/huhao/rm_vision/install/joint_tf_publisher/lib/joint_tf_publisher/joint_tf_publisher" to ""
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/ament_index/resource_index/package_run_dependencies/joint_tf_publisher
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/ament_index/resource_index/parent_prefix_path/joint_tf_publisher
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/environment/ament_prefix_path.sh
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/environment/ament_prefix_path.dsv
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/environment/path.sh
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/environment/path.dsv
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/local_setup.bash
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/local_setup.sh
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/local_setup.zsh
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/local_setup.dsv
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/package.dsv
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/ament_index/resource_index/packages/joint_tf_publisher
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/cmake/joint_tf_publisherConfig.cmake
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/cmake/joint_tf_publisherConfig-version.cmake
+-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/package.xml

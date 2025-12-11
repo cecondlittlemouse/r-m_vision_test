@@ -1,0 +1,761 @@
+[0.000000] (-) TimerEvent: {}
+[0.001656] (auto_aim_interfaces) JobQueued: {'identifier': 'auto_aim_interfaces', 'dependencies': OrderedDict()}
+[0.001710] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict()}
+[0.001723] (gary_msgs) JobQueued: {'identifier': 'gary_msgs', 'dependencies': OrderedDict()}
+[0.001733] (joint_tf_publisher) JobQueued: {'identifier': 'joint_tf_publisher', 'dependencies': OrderedDict()}
+[0.001742] (rm_gimbal_description) JobQueued: {'identifier': 'rm_gimbal_description', 'dependencies': OrderedDict()}
+[0.001750] (armor_detector) JobQueued: {'identifier': 'armor_detector', 'dependencies': OrderedDict([('auto_aim_interfaces', '/home/huhao/rm_vision/install/auto_aim_interfaces')])}
+[0.001761] (armor_tracker) JobQueued: {'identifier': 'armor_tracker', 'dependencies': OrderedDict([('auto_aim_interfaces', '/home/huhao/rm_vision/install/auto_aim_interfaces')])}
+[0.001770] (change_to_autoaim) JobQueued: {'identifier': 'change_to_autoaim', 'dependencies': OrderedDict([('auto_aim_interfaces', '/home/huhao/rm_vision/install/auto_aim_interfaces'), ('gary_msgs', '/home/huhao/rm_vision/install/gary_msgs')])}
+[0.001781] (rm_auto_aim) JobQueued: {'identifier': 'rm_auto_aim', 'dependencies': OrderedDict([('auto_aim_interfaces', '/home/huhao/rm_vision/install/auto_aim_interfaces'), ('armor_detector', '/home/huhao/rm_vision/install/armor_detector'), ('armor_tracker', '/home/huhao/rm_vision/install/armor_tracker')])}
+[0.001794] (auto_aim_interfaces) JobStarted: {'identifier': 'auto_aim_interfaces'}
+[0.007521] (gary_msgs) JobStarted: {'identifier': 'gary_msgs'}
+[0.009775] (camera) JobStarted: {'identifier': 'camera'}
+[0.012843] (joint_tf_publisher) JobStarted: {'identifier': 'joint_tf_publisher'}
+[0.015525] (rm_gimbal_description) JobStarted: {'identifier': 'rm_gimbal_description'}
+[0.021775] (auto_aim_interfaces) JobProgress: {'identifier': 'auto_aim_interfaces', 'progress': 'cmake'}
+[0.021932] (auto_aim_interfaces) JobProgress: {'identifier': 'auto_aim_interfaces', 'progress': 'build'}
+[0.021970] (auto_aim_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huhao/rm_vision/build/auto_aim_interfaces', '--', '-j6', '-l6'], 'cwd': '/home/huhao/rm_vision/build/auto_aim_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huhao'), ('SSH_CLIENT', '192.168.64.1 49263 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/huhao'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-484a8175-3214-43a0-abd8-893739bcf9d6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huhao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huhao/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huhao/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huhao/.fishros/bin/:/home/huhao/.fishros/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9d6dc15c99.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/huhao/rm_vision/build/auto_aim_interfaces'), ('SSH_CONNECTION', '192.168.64.1 49263 192.168.64.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.025920] (gary_msgs) JobProgress: {'identifier': 'gary_msgs', 'progress': 'cmake'}
+[0.027398] (gary_msgs) JobProgress: {'identifier': 'gary_msgs', 'progress': 'build'}
+[0.027503] (gary_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huhao/rm_vision/build/gary_msgs', '--', '-j6', '-l6'], 'cwd': '/home/huhao/rm_vision/build/gary_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huhao'), ('SSH_CLIENT', '192.168.64.1 49263 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/huhao'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-484a8175-3214-43a0-abd8-893739bcf9d6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huhao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huhao/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huhao/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huhao/.fishros/bin/:/home/huhao/.fishros/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9d6dc15c99.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/huhao/rm_vision/build/gary_msgs'), ('SSH_CONNECTION', '192.168.64.1 49263 192.168.64.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.029797] (camera) JobProgress: {'identifier': 'camera', 'progress': 'cmake'}
+[0.031157] (camera) JobProgress: {'identifier': 'camera', 'progress': 'build'}
+[0.031199] (camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huhao/rm_vision/build/camera', '--', '-j6', '-l6'], 'cwd': '/home/huhao/rm_vision/build/camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huhao'), ('SSH_CLIENT', '192.168.64.1 49263 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/huhao'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-484a8175-3214-43a0-abd8-893739bcf9d6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huhao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huhao/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huhao/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huhao/.fishros/bin/:/home/huhao/.fishros/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9d6dc15c99.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/huhao/rm_vision/build/camera'), ('SSH_CONNECTION', '192.168.64.1 49263 192.168.64.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.033824] (joint_tf_publisher) JobProgress: {'identifier': 'joint_tf_publisher', 'progress': 'cmake'}
+[0.036528] (joint_tf_publisher) JobProgress: {'identifier': 'joint_tf_publisher', 'progress': 'build'}
+[0.036647] (joint_tf_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huhao/rm_vision/build/joint_tf_publisher', '--', '-j6', '-l6'], 'cwd': '/home/huhao/rm_vision/build/joint_tf_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huhao'), ('SSH_CLIENT', '192.168.64.1 49263 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/huhao'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-484a8175-3214-43a0-abd8-893739bcf9d6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huhao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huhao/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huhao/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huhao/.fishros/bin/:/home/huhao/.fishros/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9d6dc15c99.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/huhao/rm_vision/build/joint_tf_publisher'), ('SSH_CONNECTION', '192.168.64.1 49263 192.168.64.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.053521] (rm_gimbal_description) JobProgress: {'identifier': 'rm_gimbal_description', 'progress': 'cmake'}
+[0.054037] (rm_gimbal_description) JobProgress: {'identifier': 'rm_gimbal_description', 'progress': 'build'}
+[0.055151] (rm_gimbal_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huhao/rm_vision/build/rm_gimbal_description', '--', '-j6', '-l6'], 'cwd': '/home/huhao/rm_vision/build/rm_gimbal_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huhao'), ('SSH_CLIENT', '192.168.64.1 49263 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/huhao'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-484a8175-3214-43a0-abd8-893739bcf9d6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huhao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huhao/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huhao/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huhao/.fishros/bin/:/home/huhao/.fishros/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9d6dc15c99.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/huhao/rm_vision/build/rm_gimbal_description'), ('SSH_CONNECTION', '192.168.64.1 49263 192.168.64.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.090186] (rm_gimbal_description) CommandEnded: {'returncode': 0}
+[0.093956] (rm_gimbal_description) JobProgress: {'identifier': 'rm_gimbal_description', 'progress': 'install'}
+[0.101376] (rm_gimbal_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/huhao/rm_vision/build/rm_gimbal_description'], 'cwd': '/home/huhao/rm_vision/build/rm_gimbal_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huhao'), ('SSH_CLIENT', '192.168.64.1 49263 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/huhao'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-484a8175-3214-43a0-abd8-893739bcf9d6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huhao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huhao/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huhao/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huhao/.fishros/bin/:/home/huhao/.fishros/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9d6dc15c99.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/huhao/rm_vision/build/rm_gimbal_description'), ('SSH_CONNECTION', '192.168.64.1 49263 192.168.64.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101764] (-) TimerEvent: {}
+[0.101855] (auto_aim_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.104276] (gary_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.110359] (rm_gimbal_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.113846] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/rm_gimbal_description/urdf\n'}
+[0.114096] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/rm_gimbal_description/urdf/rm_gimbal.urdf.xacro\n'}
+[0.114409] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/ament_index/resource_index/package_run_dependencies/rm_gimbal_description\n'}
+[0.114624] (camera) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/camera.dir/src/CamNode.cpp.o\x1b[0m\n'}
+[0.114695] (camera) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/camera.dir/src/CamWrapper.cpp.o\x1b[0m\n'}
+[0.114920] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/ament_index/resource_index/parent_prefix_path/rm_gimbal_description\n'}
+[0.115161] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/rm_gimbal_description/environment/ament_prefix_path.sh\n'}
+[0.115360] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/rm_gimbal_description/environment/ament_prefix_path.dsv\n'}
+[0.115547] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/rm_gimbal_description/environment/path.sh\n'}
+[0.115938] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/rm_gimbal_description/environment/path.dsv\n'}
+[0.116207] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.bash\n'}
+[0.116370] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.sh\n'}
+[0.116511] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.zsh\n'}
+[0.117232] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.dsv\n'}
+[0.117362] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/rm_gimbal_description/package.dsv\n'}
+[0.117400] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/ament_index/resource_index/packages/rm_gimbal_description\n'}
+[0.117599] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig.cmake\n'}
+[0.119714] (auto_aim_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.120405] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig-version.cmake\n'}
+[0.121331] (rm_gimbal_description) StdoutLine: {'line': b'-- Up-to-date: /home/huhao/rm_vision/install/rm_gimbal_description/share/rm_gimbal_description/package.xml\n'}
+[0.121844] (auto_aim_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_auto_aim_interfaces\n'}
+[0.124665] (rm_gimbal_description) CommandEnded: {'returncode': 0}
+[0.128083] (joint_tf_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joint_tf_publisher\x1b[0m\n'}
+[0.129566] (gary_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_gary_msgs\n'}
+[0.130997] (gary_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.168685] (rm_gimbal_description) JobEnded: {'identifier': 'rm_gimbal_description', 'rc': 0}
+[0.201882] (-) TimerEvent: {}
+[0.277594] (joint_tf_publisher) StdoutLine: {'line': b'[100%] Built target joint_tf_publisher\n'}
+[0.302080] (-) TimerEvent: {}
+[0.313761] (joint_tf_publisher) CommandEnded: {'returncode': 0}
+[0.314045] (joint_tf_publisher) JobProgress: {'identifier': 'joint_tf_publisher', 'progress': 'install'}
+[0.314068] (joint_tf_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/huhao/rm_vision/build/joint_tf_publisher'], 'cwd': '/home/huhao/rm_vision/build/joint_tf_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huhao'), ('SSH_CLIENT', '192.168.64.1 49263 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/huhao'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-484a8175-3214-43a0-abd8-893739bcf9d6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huhao'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huhao/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huhao/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huhao/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huhao/.fishros/bin/:/home/huhao/.fishros/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9d6dc15c99.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/huhao/rm_vision/build/joint_tf_publisher'), ('SSH_CONNECTION', '192.168.64.1 49263 192.168.64.4 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.324473] (joint_tf_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.324574] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/lib/joint_tf_publisher/joint_tf_publisher\n'}
+[0.356653] (joint_tf_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/huhao/rm_vision/install/joint_tf_publisher/lib/joint_tf_publisher/joint_tf_publisher" to ""\n'}
+[0.356954] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/ament_index/resource_index/package_run_dependencies/joint_tf_publisher\n'}
+[0.357372] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/ament_index/resource_index/parent_prefix_path/joint_tf_publisher\n'}
+[0.357421] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/environment/ament_prefix_path.sh\n'}
+[0.360695] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/environment/ament_prefix_path.dsv\n'}
+[0.361065] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/environment/path.sh\n'}
+[0.362181] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/environment/path.dsv\n'}
+[0.362545] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/local_setup.bash\n'}
+[0.362830] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/local_setup.sh\n'}
+[0.363786] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/local_setup.zsh\n'}
+[0.363861] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/local_setup.dsv\n'}
+[0.363892] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/package.dsv\n'}
+[0.364498] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/ament_index/resource_index/packages/joint_tf_publisher\n'}
+[0.364549] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/cmake/joint_tf_publisherConfig.cmake\n'}
+[0.364579] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/cmake/joint_tf_publisherConfig-version.cmake\n'}
+[0.364609] (joint_tf_publisher) StdoutLine: {'line': b'-- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/package.xml\n'}
+[0.365640] (joint_tf_publisher) CommandEnded: {'returncode': 0}
+[0.385788] (joint_tf_publisher) JobEnded: {'identifier': 'joint_tf_publisher', 'rc': 0}
+[0.387109] (gary_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.388151] (gary_msgs) StdoutLine: {'line': b'creating gary_msgs.egg-info\n'}
+[0.388213] (gary_msgs) StdoutLine: {'line': b'writing gary_msgs.egg-info/PKG-INFO\n'}
+[0.388245] (gary_msgs) StdoutLine: {'line': b'writing dependency_links to gary_msgs.egg-info/dependency_links.txt\n'}
+[0.388274] (gary_msgs) StdoutLine: {'line': b'writing top-level names to gary_msgs.egg-info/top_level.txt\n'}
+[0.388302] (gary_msgs) StdoutLine: {'line': b"writing manifest file 'gary_msgs.egg-info/SOURCES.txt'\n"}
+[0.393820] (gary_msgs) StdoutLine: {'line': b"reading manifest file 'gary_msgs.egg-info/SOURCES.txt'\n"}
+[0.394167] (gary_msgs) StdoutLine: {'line': b"writing manifest file 'gary_msgs.egg-info/SOURCES.txt'\n"}
+[0.402211] (-) TimerEvent: {}
+[0.416484] (auto_aim_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.417122] (auto_aim_interfaces) StdoutLine: {'line': b'creating auto_aim_interfaces.egg-info\n'}
+[0.417196] (auto_aim_interfaces) StdoutLine: {'line': b'writing auto_aim_interfaces.egg-info/PKG-INFO\n'}
+[0.417545] (auto_aim_interfaces) StdoutLine: {'line': b'writing dependency_links to auto_aim_interfaces.egg-info/dependency_links.txt\n'}
+[0.418514] (auto_aim_interfaces) StdoutLine: {'line': b'writing top-level names to auto_aim_interfaces.egg-info/top_level.txt\n'}
+[0.418591] (auto_aim_interfaces) StdoutLine: {'line': b"writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'\n"}
+[0.418885] (auto_aim_interfaces) StdoutLine: {'line': b"reading manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'\n"}
+[0.419474] (auto_aim_interfaces) StdoutLine: {'line': b"writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'\n"}
+[0.451621] (gary_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_gary_msgs_egg\n'}
+[0.452549] (auto_aim_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_auto_aim_interfaces_egg\n'}
+[0.502319] (-) TimerEvent: {}
+[0.555779] (camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huhao/rm_vision/camera/src/CamWrapper.cpp:8:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kglog/logging.h: No such file or directory\n'}
+[0.555918] (camera) StderrLine: {'line': b'    8 | #include \x1b[01;31m\x1b[K<glog/logging.h>\x1b[m\x1b[K\n'}
+[0.555958] (camera) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.555987] (camera) StderrLine: {'line': b'compilation terminated.\n'}
+[0.559121] (camera) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/camera.dir/build.make:90: CMakeFiles/camera.dir/src/CamWrapper.cpp.o] Error 1\n'}
+[0.559194] (camera) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[0.604883] (-) TimerEvent: {}
+[0.705418] (-) TimerEvent: {}
+[0.805851] (-) TimerEvent: {}
+[0.906532] (-) TimerEvent: {}
+[0.983862] (camera) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/huhao/rm_vision/camera/src/CamNode.cpp:25\x1b[m\x1b[K:\n'}
+[0.984233] (camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huhao/rm_vision/camera/include/CamWrapperDH.h:8:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kglog/logging.h: No such file or directory\n'}
+[0.984303] (camera) StderrLine: {'line': b'    8 | #include \x1b[01;31m\x1b[K<glog/logging.h>\x1b[m\x1b[K\n'}
+[0.984352] (camera) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.984410] (camera) StderrLine: {'line': b'compilation terminated.\n'}
+[0.990963] (camera) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/camera.dir/build.make:76: CMakeFiles/camera.dir/src/CamNode.cpp.o] Error 1\n'}
+[0.991683] (camera) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera.dir/all] Error 2\n'}
+[0.991803] (camera) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.994041] (camera) CommandEnded: {'returncode': 2}
+[0.998537] (camera) JobEnded: {'identifier': 'camera', 'rc': 2}
+[1.006636] (-) TimerEvent: {}
+[1.061868] (auto_aim_interfaces) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armor__functions.c.o\x1b[0m\n'}
+[1.065485] (auto_aim_interfaces) StdoutLine: {'line': b'[  4%] Built target auto_aim_interfaces__cpp\n'}
+[1.065809] (auto_aim_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armors__functions.c.o\x1b[0m\n'}
+[1.070139] (auto_aim_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/target__functions.c.o\x1b[0m\n'}
+[1.075052] (auto_aim_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.079460] (auto_aim_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_light__functions.c.o\x1b[0m\n'}
+[1.095370] (auto_aim_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.106741] (-) TimerEvent: {}
+[1.207032] (-) TimerEvent: {}
+[1.247612] (auto_aim_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_lights__functions.c.o\x1b[0m\n'}
+[1.252952] (auto_aim_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.260846] (auto_aim_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armors__functions.c.o\x1b[0m\n'}
+[1.267603] (auto_aim_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armor__functions.c.o\x1b[0m\n'}
+[1.307131] (-) TimerEvent: {}
+[1.361411] (auto_aim_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/tracker_info__functions.c.o\x1b[0m\n'}
+[1.372611] (auto_aim_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/time_info__functions.c.o\x1b[0m\n'}
+[1.407242] (-) TimerEvent: {}
+[1.455571] (auto_aim_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libauto_aim_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.463979] (auto_aim_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/target__type_support.cpp.o\x1b[0m\n'}
+[1.464477] (auto_aim_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armor__type_support.cpp.o\x1b[0m\n'}
+[1.467965] (auto_aim_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armors__type_support.cpp.o\x1b[0m\n'}
+[1.509282] (-) TimerEvent: {}
+[1.581373] (auto_aim_interfaces) StdoutLine: {'line': b'[ 18%] Built target auto_aim_interfaces__rosidl_generator_c\n'}
+[1.586878] (auto_aim_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_light__type_support.cpp.o\x1b[0m\n'}
+[1.609397] (-) TimerEvent: {}
+[1.674993] (auto_aim_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o\x1b[0m\n'}
+[1.709512] (-) TimerEvent: {}
+[1.809768] (-) TimerEvent: {}
+[1.910040] (-) TimerEvent: {}
+[1.915798] (auto_aim_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armor__type_support.cpp.o\x1b[0m\n'}
+[2.010155] (-) TimerEvent: {}
+[2.012918] (auto_aim_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o\x1b[0m\n'}
+[2.017631] (auto_aim_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o\x1b[0m\n'}
+[2.050386] (auto_aim_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.076970] (auto_aim_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o\x1b[0m\n'}
+[2.110267] (-) TimerEvent: {}
+[2.210768] (-) TimerEvent: {}
+[2.227227] (auto_aim_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o\x1b[0m\n'}
+[2.279660] (auto_aim_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp.o\x1b[0m\n'}
+[2.301322] (auto_aim_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/time_info__type_support.cpp.o\x1b[0m\n'}
+[2.310879] (-) TimerEvent: {}
+[2.391527] (auto_aim_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o\x1b[0m\n'}
+[2.410983] (-) TimerEvent: {}
+[2.431867] (auto_aim_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armors__type_support.cpp.o\x1b[0m\n'}
+[2.511087] (-) TimerEvent: {}
+[2.545751] (auto_aim_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/target__type_support.cpp.o\x1b[0m\n'}
+[2.593620] (auto_aim_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.611187] (-) TimerEvent: {}
+[2.636944] (auto_aim_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_light__type_support.cpp.o\x1b[0m\n'}
+[2.713543] (-) TimerEvent: {}
+[2.727276] (auto_aim_interfaces) StdoutLine: {'line': b'[ 34%] Built target auto_aim_interfaces__rosidl_typesupport_cpp\n'}
+[2.784795] (auto_aim_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.813779] (-) TimerEvent: {}
+[2.914426] (-) TimerEvent: {}
+[2.914799] (auto_aim_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp.o\x1b[0m\n'}
+[2.966053] (auto_aim_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_lights__type_support.cpp.o\x1b[0m\n'}
+[3.014532] (-) TimerEvent: {}
+[3.055679] (auto_aim_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armor__type_support.cpp.o\x1b[0m\n'}
+[3.060748] (auto_aim_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armor__type_support_c.cpp.o\x1b[0m\n'}
+[3.098340] (auto_aim_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp.o\x1b[0m\n'}
+[3.114645] (-) TimerEvent: {}
+[3.215289] (-) TimerEvent: {}
+[3.269282] (auto_aim_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armor__type_support.cpp.o\x1b[0m\n'}
+[3.315417] (-) TimerEvent: {}
+[3.359465] (auto_aim_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armors__type_support.cpp.o\x1b[0m\n'}
+[3.415536] (-) TimerEvent: {}
+[3.455039] (auto_aim_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/tracker_info__type_support.cpp.o\x1b[0m\n'}
+[3.515656] (-) TimerEvent: {}
+[3.573528] (auto_aim_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armors__type_support.cpp.o\x1b[0m\n'}
+[3.583177] (auto_aim_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armors__type_support_c.cpp.o\x1b[0m\n'}
+[3.615770] (-) TimerEvent: {}
+[3.670792] (auto_aim_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armor__type_support.c.o\x1b[0m\n'}
+[3.715921] (-) TimerEvent: {}
+[3.765564] (auto_aim_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armors__type_support.c.o\x1b[0m\n'}
+[3.816056] (-) TimerEvent: {}
+[3.830168] (auto_aim_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/target__type_support.c.o\x1b[0m\n'}
+[3.916294] (-) TimerEvent: {}
+[3.918425] (auto_aim_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_light__type_support.c.o\x1b[0m\n'}
+[3.957355] (auto_aim_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_lights__type_support.c.o\x1b[0m\n'}
+[3.962462] (auto_aim_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/tracker_info__type_support.cpp.o\x1b[0m\n'}
+[3.983004] (auto_aim_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armor__type_support.c.o\x1b[0m\n'}
+[3.989975] (auto_aim_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/time_info__type_support.cpp.o\x1b[0m\n'}
+[4.001542] (auto_aim_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/target__type_support_c.cpp.o\x1b[0m\n'}
+[4.005656] (auto_aim_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armors__type_support.c.o\x1b[0m\n'}
+[4.011339] (auto_aim_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/tracker_info__type_support.c.o\x1b[0m\n'}
+[4.016371] (-) TimerEvent: {}
+[4.031097] (auto_aim_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/time_info__type_support.c.o\x1b[0m\n'}
+[4.061124] (auto_aim_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_light__type_support_c.cpp.o\x1b[0m\n'}
+[4.072706] (auto_aim_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_lights__type_support_c.cpp.o\x1b[0m\n'}
+[4.116474] (-) TimerEvent: {}
+[4.136966] (auto_aim_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libauto_aim_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.216591] (-) TimerEvent: {}
+[4.236707] (auto_aim_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/time_info__type_support.cpp.o\x1b[0m\n'}
+[4.254197] (auto_aim_interfaces) StdoutLine: {'line': b'[ 63%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.289268] (auto_aim_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.316707] (-) TimerEvent: {}
+[4.417277] (-) TimerEvent: {}
+[4.458847] (auto_aim_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armor__type_support_c.cpp.o\x1b[0m\n'}
+[4.517388] (-) TimerEvent: {}
+[4.519785] (auto_aim_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.550513] (auto_aim_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armors__type_support_c.cpp.o\x1b[0m\n'}
+[4.576799] (auto_aim_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/tracker_info__type_support_c.cpp.o\x1b[0m\n'}
+[4.617490] (-) TimerEvent: {}
+[4.655280] (auto_aim_interfaces) StdoutLine: {'line': b'[ 68%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.674479] (auto_aim_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/time_info__type_support_c.cpp.o\x1b[0m\n'}
+[4.717614] (-) TimerEvent: {}
+[4.817923] (-) TimerEvent: {}
+[4.907270] (auto_aim_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.921757] (-) TimerEvent: {}
+[4.984161] (auto_aim_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armors__type_support.cpp.o\x1b[0m\n'}
+[4.993806] (auto_aim_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armor__type_support.cpp.o\x1b[0m\n'}
+[5.021743] (-) TimerEvent: {}
+[5.027783] (auto_aim_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/target__type_support.cpp.o\x1b[0m\n'}
+[5.087312] (auto_aim_interfaces) StdoutLine: {'line': b'[ 73%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.108697] (auto_aim_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_light__type_support.cpp.o\x1b[0m\n'}
+[5.121859] (-) TimerEvent: {}
+[5.127654] (auto_aim_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o\x1b[0m\n'}
+[5.133485] (auto_aim_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o\x1b[0m\n'}
+[5.150558] (auto_aim_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o\x1b[0m\n'}
+[5.162143] (auto_aim_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o\x1b[0m\n'}
+[5.168961] (auto_aim_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.213429] (auto_aim_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/time_info__type_support.cpp.o\x1b[0m\n'}
+[5.221971] (-) TimerEvent: {}
+[5.270014] (auto_aim_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.322087] (-) TimerEvent: {}
+[5.336396] (auto_aim_interfaces) StdoutLine: {'line': b'[ 82%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.338267] (auto_aim_interfaces) StdoutLine: {'line': b'[ 82%] Built target auto_aim_interfaces__rosidl_typesupport_c\n'}
+[5.389514] (auto_aim_interfaces) StdoutLine: {'line': b'[ 82%] Built target auto_aim_interfaces\n'}
+[5.422209] (-) TimerEvent: {}
+[5.479419] (auto_aim_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.522333] (-) TimerEvent: {}
+[5.622699] (-) TimerEvent: {}
+[5.724583] (-) TimerEvent: {}
+[5.825167] (-) TimerEvent: {}
+[5.889887] (gary_msgs) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/dr16_receiver__functions.c.o\x1b[0m\n'}
+[5.893877] (gary_msgs) StdoutLine: {'line': b'[  1%] Built target gary_msgs__cpp\n'}
+[5.910115] (gary_msgs) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/game_status__functions.c.o\x1b[0m\n'}
+[5.911741] (gary_msgs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/game_result__functions.c.o\x1b[0m\n'}
+[5.911811] (gary_msgs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/robot_hp__functions.c.o\x1b[0m\n'}
+[5.911849] (gary_msgs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/icra_buff_debuff_zone_and_lurk_status__functions.c.o\x1b[0m\n'}
+[5.914046] (gary_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.925278] (-) TimerEvent: {}
+[6.022376] (gary_msgs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/supply_projectile_action__functions.c.o\x1b[0m\n'}
+[6.022938] (gary_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/field_events__functions.c.o\x1b[0m\n'}
+[6.025378] (-) TimerEvent: {}
+[6.028639] (gary_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/supply_projectile_request__functions.c.o\x1b[0m\n'}
+[6.068665] (gary_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.069398] (gary_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/referee_warning__functions.c.o\x1b[0m\n'}
+[6.112575] (gary_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/dart_remaining_time__functions.c.o\x1b[0m\n'}
+[6.125640] (-) TimerEvent: {}
+[6.134001] (gary_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/robot_status__functions.c.o\x1b[0m\n'}
+[6.139504] (gary_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.197707] (gary_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/power_heat__functions.c.o\x1b[0m\n'}
+[6.227189] (-) TimerEvent: {}
+[6.247238] (gary_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/robot_position__functions.c.o\x1b[0m\n'}
+[6.302388] (gary_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/robot_buff__functions.c.o\x1b[0m\n'}
+[6.320844] (gary_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/aerial_robot_energy__functions.c.o\x1b[0m\n'}
+[6.327307] (-) TimerEvent: {}
+[6.415249] (gary_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/robot_hurt__functions.c.o\x1b[0m\n'}
+[6.427447] (-) TimerEvent: {}
+[6.451370] (gary_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/shoot_data__functions.c.o\x1b[0m\n'}
+[6.482027] (gary_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/bullet_remaining__functions.c.o\x1b[0m\n'}
+[6.527555] (-) TimerEvent: {}
+[6.553650] (gary_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/rfid_status__functions.c.o\x1b[0m\n'}
+[6.596836] (gary_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/dart_client_cmd__functions.c.o\x1b[0m\n'}
+[6.627676] (-) TimerEvent: {}
+[6.628025] (gary_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/interactive_data_recv__functions.c.o\x1b[0m\n'}
+[6.660580] (gary_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/interactive_data_send__functions.c.o\x1b[0m\n'}
+[6.700853] (gary_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/custom_controller__functions.c.o\x1b[0m\n'}
+[6.727788] (-) TimerEvent: {}
+[6.745042] (gary_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/client_command__functions.c.o\x1b[0m\n'}
+[6.782655] (gary_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/client_receive__functions.c.o\x1b[0m\n'}
+[6.796891] (gary_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/image_transmitter__functions.c.o\x1b[0m\n'}
+[6.827899] (-) TimerEvent: {}
+[6.848509] (gary_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/auto_aim__functions.c.o\x1b[0m\n'}
+[6.912562] (gary_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/pid__functions.c.o\x1b[0m\n'}
+[6.913914] (gary_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/auto_aim_debug__functions.c.o\x1b[0m\n'}
+[6.928012] (-) TimerEvent: {}
+[6.961440] (gary_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/pid_with_filter__functions.c.o\x1b[0m\n'}
+[6.981500] (gary_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/dual_loop_pid__functions.c.o\x1b[0m\n'}
+[6.995542] (auto_aim_interfaces) StdoutLine: {'line': b'[ 83%] Built target auto_aim_interfaces__py\n'}
+[7.000016] (gary_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/dual_loop_pid_with_filter__functions.c.o\x1b[0m\n'}
+[7.027403] (gary_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/srv/detail/vision_mode_switch__functions.c.o\x1b[0m\n'}
+[7.028079] (-) TimerEvent: {}
+[7.037451] (auto_aim_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armor_s.c.o\x1b[0m\n'}
+[7.042163] (auto_aim_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armors_s.c.o\x1b[0m\n'}
+[7.058530] (auto_aim_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_target_s.c.o\x1b[0m\n'}
+[7.060544] (gary_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/srv/detail/reset_motor_position__functions.c.o\x1b[0m\n'}
+[7.098563] (auto_aim_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_light_s.c.o\x1b[0m\n'}
+[7.113327] (auto_aim_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_lights_s.c.o\x1b[0m\n'}
+[7.127942] (auto_aim_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armor_s.c.o\x1b[0m\n'}
+[7.128091] (-) TimerEvent: {}
+[7.136077] (gary_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libgary_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[7.228222] (-) TimerEvent: {}
+[7.257645] (auto_aim_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armors_s.c.o\x1b[0m\n'}
+[7.267569] (gary_msgs) StdoutLine: {'line': b'[ 14%] Built target gary_msgs__rosidl_generator_c\n'}
+[7.270503] (auto_aim_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_tracker_info_s.c.o\x1b[0m\n'}
+[7.278944] (auto_aim_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_time_info_s.c.o\x1b[0m\n'}
+[7.305757] (gary_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.325859] (gary_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.328322] (-) TimerEvent: {}
+[7.338177] (gary_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.428438] (-) TimerEvent: {}
+[7.449280] (auto_aim_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.528546] (-) TimerEvent: {}
+[7.569491] (auto_aim_interfaces) StdoutLine: {'line': b'[ 93%] Built target auto_aim_interfaces__rosidl_generator_py\n'}
+[7.628655] (-) TimerEvent: {}
+[7.665429] (auto_aim_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.673512] (auto_aim_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.688712] (auto_aim_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.728755] (-) TimerEvent: {}
+[7.829442] (-) TimerEvent: {}
+[7.914685] (auto_aim_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[7.929544] (-) TimerEvent: {}
+[7.944893] (auto_aim_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[7.960385] (auto_aim_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.018357] (auto_aim_interfaces) StdoutLine: {'line': b'[100%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.029643] (-) TimerEvent: {}
+[8.054179] (auto_aim_interfaces) StdoutLine: {'line': b'[100%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.061465] (auto_aim_interfaces) StdoutLine: {'line': b'[100%] Built target auto_aim_interfaces__rosidl_typesupport_c__pyext\n'}
+[8.103342] (auto_aim_interfaces) JobEnded: {'identifier': 'auto_aim_interfaces', 'rc': 'SIGINT'}
+[8.129742] (-) TimerEvent: {}
+[8.230143] (-) TimerEvent: {}
+[8.330543] (-) TimerEvent: {}
+[8.430930] (-) TimerEvent: {}
+[8.531330] (-) TimerEvent: {}
+[8.631594] (-) TimerEvent: {}
+[8.731825] (-) TimerEvent: {}
+[8.832289] (-) TimerEvent: {}
+[8.932715] (-) TimerEvent: {}
+[9.033382] (-) TimerEvent: {}
+[9.133802] (-) TimerEvent: {}
+[9.234267] (-) TimerEvent: {}
+[9.334520] (-) TimerEvent: {}
+[9.364755] (gary_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/dr16_receiver__type_support.cpp.o\x1b[0m\n'}
+[9.434632] (-) TimerEvent: {}
+[9.526423] (gary_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/game_status__type_support.cpp.o\x1b[0m\n'}
+[9.534735] (-) TimerEvent: {}
+[9.634990] (-) TimerEvent: {}
+[9.696824] (gary_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/game_result__type_support.cpp.o\x1b[0m\n'}
+[9.735105] (-) TimerEvent: {}
+[9.835557] (-) TimerEvent: {}
+[9.916059] (gary_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/robot_hp__type_support.cpp.o\x1b[0m\n'}
+[9.935671] (-) TimerEvent: {}
+[9.987084] (gary_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/dr16_receiver__type_support.cpp.o\x1b[0m\n'}
+[10.035803] (-) TimerEvent: {}
+[10.099315] (gary_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/icra_buff_debuff_zone_and_lurk_status__type_support.cpp.o\x1b[0m\n'}
+[10.115938] (gary_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/dr16_receiver__type_support.cpp.o\x1b[0m\n'}
+[10.135921] (-) TimerEvent: {}
+[10.236815] (-) TimerEvent: {}
+[10.249689] (gary_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/game_status__type_support.cpp.o\x1b[0m\n'}
+[10.283008] (gary_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/field_events__type_support.cpp.o\x1b[0m\n'}
+[10.320631] (gary_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/dr16_receiver__type_support.cpp.o\x1b[0m\n'}
+[10.336927] (-) TimerEvent: {}
+[10.360960] (gary_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/game_status__type_support.cpp.o\x1b[0m\n'}
+[10.386578] (gary_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/game_result__type_support.cpp.o\x1b[0m\n'}
+[10.406067] (gary_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/game_status__type_support.cpp.o\x1b[0m\n'}
+[10.411599] (gary_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/robot_hp__type_support.cpp.o\x1b[0m\n'}
+[10.430939] (gary_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/icra_buff_debuff_zone_and_lurk_status__type_support.cpp.o\x1b[0m\n'}
+[10.437275] (-) TimerEvent: {}
+[10.450347] (gary_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/field_events__type_support.cpp.o\x1b[0m\n'}
+[10.469734] (gary_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/supply_projectile_action__type_support.cpp.o\x1b[0m\n'}
+[10.474294] (gary_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/supply_projectile_action__type_support.cpp.o\x1b[0m\n'}
+[10.488834] (gary_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/game_result__type_support.cpp.o\x1b[0m\n'}
+[10.490644] (gary_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/supply_projectile_request__type_support.cpp.o\x1b[0m\n'}
+[10.511320] (gary_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/referee_warning__type_support.cpp.o\x1b[0m\n'}
+[10.531604] (gary_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/dart_remaining_time__type_support.cpp.o\x1b[0m\n'}
+[10.537393] (-) TimerEvent: {}
+[10.552536] (gary_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[10.572017] (gary_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/power_heat__type_support.cpp.o\x1b[0m\n'}
+[10.602943] (gary_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/robot_position__type_support.cpp.o\x1b[0m\n'}
+[10.637509] (-) TimerEvent: {}
+[10.650414] (gary_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/supply_projectile_request__type_support.cpp.o\x1b[0m\n'}
+[10.651782] (gary_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/robot_buff__type_support.cpp.o\x1b[0m\n'}
+[10.663542] (gary_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/game_result__type_support.cpp.o\x1b[0m\n'}
+[10.737620] (-) TimerEvent: {}
+[10.740314] (gary_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/aerial_robot_energy__type_support.cpp.o\x1b[0m\n'}
+[10.748851] (gary_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/dr16_receiver__type_support.c.o\x1b[0m\n'}
+[10.777204] (gary_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/robot_hp__type_support.cpp.o\x1b[0m\n'}
+[10.787138] (gary_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/robot_hurt__type_support.cpp.o\x1b[0m\n'}
+[10.825224] (gary_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/game_status__type_support.c.o\x1b[0m\n'}
+[10.829300] (gary_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/shoot_data__type_support.cpp.o\x1b[0m\n'}
+[10.837738] (-) TimerEvent: {}
+[10.850138] (gary_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/referee_warning__type_support.cpp.o\x1b[0m\n'}
+[10.872526] (gary_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/bullet_remaining__type_support.cpp.o\x1b[0m\n'}
+[10.893426] (gary_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/game_result__type_support.c.o\x1b[0m\n'}
+[10.898317] (gary_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/rfid_status__type_support.cpp.o\x1b[0m\n'}
+[10.934176] (gary_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/dart_client_cmd__type_support.cpp.o\x1b[0m\n'}
+[10.937862] (-) TimerEvent: {}
+[10.947234] (gary_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/robot_hp__type_support.c.o\x1b[0m\n'}
+[10.955731] (gary_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/interactive_data_recv__type_support.cpp.o\x1b[0m\n'}
+[10.956169] (gary_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/robot_hp__type_support.cpp.o\x1b[0m\n'}
+[10.976387] (gary_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/interactive_data_send__type_support.cpp.o\x1b[0m\n'}
+[10.984871] (gary_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/dr16_receiver__type_support_c.cpp.o\x1b[0m\n'}
+[11.001503] (gary_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/custom_controller__type_support.cpp.o\x1b[0m\n'}
+[11.008975] (gary_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/icra_buff_debuff_zone_and_lurk_status__type_support.c.o\x1b[0m\n'}
+[11.018720] (gary_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/dart_remaining_time__type_support.cpp.o\x1b[0m\n'}
+[11.032968] (gary_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/client_command__type_support.cpp.o\x1b[0m\n'}
+[11.034648] (gary_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/field_events__type_support.c.o\x1b[0m\n'}
+[11.037961] (-) TimerEvent: {}
+[11.058238] (gary_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/icra_buff_debuff_zone_and_lurk_status__type_support.cpp.o\x1b[0m\n'}
+[11.068686] (gary_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/supply_projectile_action__type_support.c.o\x1b[0m\n'}
+[11.075207] (gary_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/client_receive__type_support.cpp.o\x1b[0m\n'}
+[11.094302] (gary_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/image_transmitter__type_support.cpp.o\x1b[0m\n'}
+[11.115908] (gary_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/auto_aim__type_support.cpp.o\x1b[0m\n'}
+[11.129481] (gary_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/supply_projectile_request__type_support.c.o\x1b[0m\n'}
+[11.135736] (gary_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/auto_aim_debug__type_support.cpp.o\x1b[0m\n'}
+[11.138063] (-) TimerEvent: {}
+[11.179677] (gary_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/pid__type_support.cpp.o\x1b[0m\n'}
+[11.195951] (gary_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/referee_warning__type_support.c.o\x1b[0m\n'}
+[11.209302] (gary_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/pid_with_filter__type_support.cpp.o\x1b[0m\n'}
+[11.212834] (gary_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[11.222949] (gary_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/game_status__type_support_c.cpp.o\x1b[0m\n'}
+[11.227684] (gary_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/icra_buff_debuff_zone_and_lurk_status__type_support.cpp.o\x1b[0m\n'}
+[11.233963] (gary_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/dart_remaining_time__type_support.c.o\x1b[0m\n'}
+[11.238185] (-) TimerEvent: {}
+[11.243615] (gary_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/dual_loop_pid__type_support.cpp.o\x1b[0m\n'}
+[11.264044] (gary_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/dual_loop_pid_with_filter__type_support.cpp.o\x1b[0m\n'}
+[11.284887] (gary_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/robot_status__type_support.c.o\x1b[0m\n'}
+[11.292592] (gary_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/srv/vision_mode_switch__type_support.cpp.o\x1b[0m\n'}
+[11.317711] (gary_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/srv/reset_motor_position__type_support.cpp.o\x1b[0m\n'}
+[11.329855] (gary_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/field_events__type_support.cpp.o\x1b[0m\n'}
+[11.335037] (gary_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/power_heat__type_support.c.o\x1b[0m\n'}
+[11.338273] (-) TimerEvent: {}
+[11.356082] (gary_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libgary_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.360862] (gary_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/robot_position__type_support.c.o\x1b[0m\n'}
+[11.390217] (gary_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/power_heat__type_support.cpp.o\x1b[0m\n'}
+[11.402038] (gary_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/robot_buff__type_support.c.o\x1b[0m\n'}
+[11.407552] (gary_msgs) StdoutLine: {'line': b'[ 41%] Built target gary_msgs__rosidl_typesupport_c\n'}
+[11.424020] (gary_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/aerial_robot_energy__type_support.c.o\x1b[0m\n'}
+[11.430819] (gary_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/robot_hurt__type_support.c.o\x1b[0m\n'}
+[11.438388] (-) TimerEvent: {}
+[11.447705] (gary_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/shoot_data__type_support.c.o\x1b[0m\n'}
+[11.456087] (gary_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/game_result__type_support_c.cpp.o\x1b[0m\n'}
+[11.471405] (gary_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/bullet_remaining__type_support.c.o\x1b[0m\n'}
+[11.478453] (gary_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/rfid_status__type_support.c.o\x1b[0m\n'}
+[11.510008] (gary_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/dart_client_cmd__type_support.c.o\x1b[0m\n'}
+[11.523798] (gary_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/interactive_data_recv__type_support.c.o\x1b[0m\n'}
+[11.534973] (gary_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/field_events__type_support.cpp.o\x1b[0m\n'}
+[11.538495] (-) TimerEvent: {}
+[11.548193] (gary_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/interactive_data_send__type_support.c.o\x1b[0m\n'}
+[11.550133] (gary_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/custom_controller__type_support.c.o\x1b[0m\n'}
+[11.555801] (gary_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/robot_position__type_support.cpp.o\x1b[0m\n'}
+[11.569507] (gary_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/supply_projectile_action__type_support.cpp.o\x1b[0m\n'}
+[11.574865] (gary_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/client_command__type_support.c.o\x1b[0m\n'}
+[11.597106] (gary_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/client_receive__type_support.c.o\x1b[0m\n'}
+[11.597786] (gary_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/image_transmitter__type_support.c.o\x1b[0m\n'}
+[11.619958] (gary_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/auto_aim__type_support.c.o\x1b[0m\n'}
+[11.638625] (-) TimerEvent: {}
+[11.657956] (gary_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/auto_aim_debug__type_support.c.o\x1b[0m\n'}
+[11.674600] (gary_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/pid__type_support.c.o\x1b[0m\n'}
+[11.683152] (gary_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/pid_with_filter__type_support.c.o\x1b[0m\n'}
+[11.693528] (gary_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/robot_hp__type_support_c.cpp.o\x1b[0m\n'}
+[11.711261] (gary_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/robot_buff__type_support.cpp.o\x1b[0m\n'}
+[11.717848] (gary_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/dual_loop_pid__type_support.c.o\x1b[0m\n'}
+[11.722030] (gary_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c.o\x1b[0m\n'}
+[11.738738] (-) TimerEvent: {}
+[11.759572] (gary_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/srv/detail/vision_mode_switch__type_support.c.o\x1b[0m\n'}
+[11.763668] (gary_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/srv/detail/reset_motor_position__type_support.c.o\x1b[0m\n'}
+[11.790454] (gary_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/supply_projectile_action__type_support.cpp.o\x1b[0m\n'}
+[11.790848] (gary_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/supply_projectile_request__type_support.cpp.o\x1b[0m\n'}
+[11.802070] (gary_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/supply_projectile_request__type_support.cpp.o\x1b[0m\n'}
+[11.807680] (gary_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libgary_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.838867] (-) TimerEvent: {}
+[11.875638] (gary_msgs) StdoutLine: {'line': b'[ 50%] Built target gary_msgs__rosidl_typesupport_introspection_c\n'}
+[11.880315] (gary_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/aerial_robot_energy__type_support.cpp.o\x1b[0m\n'}
+[11.886006] (gary_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/robot_hurt__type_support.cpp.o\x1b[0m\n'}
+[11.925052] (gary_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/icra_buff_debuff_zone_and_lurk_status__type_support_c.cpp.o\x1b[0m\n'}
+[11.938995] (-) TimerEvent: {}
+[12.039828] (-) TimerEvent: {}
+[12.086117] (gary_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/referee_warning__type_support.cpp.o\x1b[0m\n'}
+[12.089341] (gary_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/dart_remaining_time__type_support.cpp.o\x1b[0m\n'}
+[12.095623] (gary_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/shoot_data__type_support.cpp.o\x1b[0m\n'}
+[12.105521] (gary_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/referee_warning__type_support.cpp.o\x1b[0m\n'}
+[12.112087] (gary_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/bullet_remaining__type_support.cpp.o\x1b[0m\n'}
+[12.139939] (-) TimerEvent: {}
+[12.240228] (-) TimerEvent: {}
+[12.249412] (gary_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/field_events__type_support_c.cpp.o\x1b[0m\n'}
+[12.263186] (gary_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/rfid_status__type_support.cpp.o\x1b[0m\n'}
+[12.328324] (gary_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o\x1b[0m\n'}
+[12.329727] (gary_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/power_heat__type_support.cpp.o\x1b[0m\n'}
+[12.335085] (gary_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/dart_client_cmd__type_support.cpp.o\x1b[0m\n'}
+[12.340346] (-) TimerEvent: {}
+[12.409596] (gary_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/dart_remaining_time__type_support.cpp.o\x1b[0m\n'}
+[12.440485] (-) TimerEvent: {}
+[12.491935] (gary_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/interactive_data_recv__type_support.cpp.o\x1b[0m\n'}
+[12.502106] (gary_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/interactive_data_send__type_support.cpp.o\x1b[0m\n'}
+[12.507204] (gary_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/supply_projectile_action__type_support_c.cpp.o\x1b[0m\n'}
+[12.540624] (-) TimerEvent: {}
+[12.586008] (gary_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/robot_position__type_support.cpp.o\x1b[0m\n'}
+[12.608702] (gary_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/robot_buff__type_support.cpp.o\x1b[0m\n'}
+[12.656217] (-) TimerEvent: {}
+[12.674542] (gary_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/robot_status__type_support.cpp.o\x1b[0m\n'}
+[12.705473] (gary_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/custom_controller__type_support.cpp.o\x1b[0m\n'}
+[12.714963] (gary_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/supply_projectile_request__type_support_c.cpp.o\x1b[0m\n'}
+[12.719817] (gary_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/client_command__type_support.cpp.o\x1b[0m\n'}
+[12.756358] (-) TimerEvent: {}
+[12.857119] (-) TimerEvent: {}
+[12.890653] (gary_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/client_receive__type_support.cpp.o\x1b[0m\n'}
+[12.897251] (gary_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/aerial_robot_energy__type_support.cpp.o\x1b[0m\n'}
+[12.919964] (gary_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/robot_hurt__type_support.cpp.o\x1b[0m\n'}
+[12.939663] (gary_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/power_heat__type_support.cpp.o\x1b[0m\n'}
+[12.956836] (gary_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/image_transmitter__type_support.cpp.o\x1b[0m\n'}
+[12.957275] (-) TimerEvent: {}
+[13.043809] (gary_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/auto_aim__type_support.cpp.o\x1b[0m\n'}
+[13.057406] (-) TimerEvent: {}
+[13.123461] (gary_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/auto_aim_debug__type_support.cpp.o\x1b[0m\n'}
+[13.127507] (gary_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/referee_warning__type_support_c.cpp.o\x1b[0m\n'}
+[13.151732] (gary_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/shoot_data__type_support.cpp.o\x1b[0m\n'}
+[13.157574] (-) TimerEvent: {}
+[13.162327] (gary_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/bullet_remaining__type_support.cpp.o\x1b[0m\n'}
+[13.194107] (gary_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/robot_position__type_support.cpp.o\x1b[0m\n'}
+[13.204722] (gary_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/pid__type_support.cpp.o\x1b[0m\n'}
+[13.257694] (-) TimerEvent: {}
+[13.283449] (gary_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/pid_with_filter__type_support.cpp.o\x1b[0m\n'}
+[13.357811] (-) TimerEvent: {}
+[13.381385] (gary_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/dart_remaining_time__type_support_c.cpp.o\x1b[0m\n'}
+[13.396497] (gary_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/dart_client_cmd__type_support.cpp.o\x1b[0m\n'}
+[13.405470] (gary_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/rfid_status__type_support.cpp.o\x1b[0m\n'}
+[13.440874] (gary_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/dual_loop_pid__type_support.cpp.o\x1b[0m\n'}
+[13.457921] (-) TimerEvent: {}
+[13.458300] (gary_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/dual_loop_pid_with_filter__type_support.cpp.o\x1b[0m\n'}
+[13.506886] (gary_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/robot_buff__type_support.cpp.o\x1b[0m\n'}
+[13.558043] (-) TimerEvent: {}
+[13.630562] (gary_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/interactive_data_recv__type_support.cpp.o\x1b[0m\n'}
+[13.636238] (gary_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/robot_status__type_support_c.cpp.o\x1b[0m\n'}
+[13.658156] (-) TimerEvent: {}
+[13.666917] (gary_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/interactive_data_send__type_support.cpp.o\x1b[0m\n'}
+[13.702547] (gary_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/srv/vision_mode_switch__type_support.cpp.o\x1b[0m\n'}
+[13.725508] (gary_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/srv/reset_motor_position__type_support.cpp.o\x1b[0m\n'}
+[13.733578] (gary_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/aerial_robot_energy__type_support.cpp.o\x1b[0m\n'}
+[13.758276] (-) TimerEvent: {}
+[13.832445] (gary_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/power_heat__type_support_c.cpp.o\x1b[0m\n'}
+[13.858399] (-) TimerEvent: {}
+[13.924601] (gary_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/robot_position__type_support_c.cpp.o\x1b[0m\n'}
+[13.929488] (gary_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/custom_controller__type_support.cpp.o\x1b[0m\n'}
+[13.956143] (gary_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/client_command__type_support.cpp.o\x1b[0m\n'}
+[13.958498] (-) TimerEvent: {}
+[13.962894] (gary_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/robot_hurt__type_support.cpp.o\x1b[0m\n'}
+[13.989486] (gary_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libgary_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.053976] (gary_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/robot_buff__type_support_c.cpp.o\x1b[0m\n'}
+[14.058613] (-) TimerEvent: {}
+[14.060537] (gary_msgs) StdoutLine: {'line': b'[ 69%] Built target gary_msgs__rosidl_typesupport_cpp\n'}
+[14.081592] (gary_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/aerial_robot_energy__type_support_c.cpp.o\x1b[0m\n'}
+[14.127507] (gary_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/robot_hurt__type_support_c.cpp.o\x1b[0m\n'}
+[14.158732] (-) TimerEvent: {}
+[14.178120] (gary_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/shoot_data__type_support.cpp.o\x1b[0m\n'}
+[14.182277] (gary_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/client_receive__type_support.cpp.o\x1b[0m\n'}
+[14.258840] (-) TimerEvent: {}
+[14.270245] (gary_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/shoot_data__type_support_c.cpp.o\x1b[0m\n'}
+[14.316820] (gary_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/image_transmitter__type_support.cpp.o\x1b[0m\n'}
+[14.320882] (gary_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/bullet_remaining__type_support_c.cpp.o\x1b[0m\n'}
+[14.336973] (gary_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/rfid_status__type_support_c.cpp.o\x1b[0m\n'}
+[14.358962] (-) TimerEvent: {}
+[14.395298] (gary_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/bullet_remaining__type_support.cpp.o\x1b[0m\n'}
+[14.459102] (-) TimerEvent: {}
+[14.464923] (gary_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/auto_aim__type_support.cpp.o\x1b[0m\n'}
+[14.506707] (gary_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/dart_client_cmd__type_support_c.cpp.o\x1b[0m\n'}
+[14.559232] (-) TimerEvent: {}
+[14.597426] (gary_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/interactive_data_recv__type_support_c.cpp.o\x1b[0m\n'}
+[14.600648] (gary_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/auto_aim_debug__type_support.cpp.o\x1b[0m\n'}
+[14.635226] (gary_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/interactive_data_send__type_support_c.cpp.o\x1b[0m\n'}
+[14.648874] (gary_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/rfid_status__type_support.cpp.o\x1b[0m\n'}
+[14.659359] (-) TimerEvent: {}
+[14.754787] (gary_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/pid__type_support.cpp.o\x1b[0m\n'}
+[14.759483] (-) TimerEvent: {}
+[14.786699] (gary_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/custom_controller__type_support_c.cpp.o\x1b[0m\n'}
+[14.791824] (gary_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/client_command__type_support_c.cpp.o\x1b[0m\n'}
+[14.855589] (gary_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/client_receive__type_support_c.cpp.o\x1b[0m\n'}
+[14.859597] (-) TimerEvent: {}
+[14.863734] (gary_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/pid_with_filter__type_support.cpp.o\x1b[0m\n'}
+[14.959736] (-) TimerEvent: {}
+[14.989235] (gary_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/image_transmitter__type_support_c.cpp.o\x1b[0m\n'}
+[14.994434] (gary_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/dart_client_cmd__type_support.cpp.o\x1b[0m\n'}
+[14.997499] (gary_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/dual_loop_pid__type_support.cpp.o\x1b[0m\n'}
+[15.059867] (-) TimerEvent: {}
+[15.081905] (gary_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/auto_aim__type_support_c.cpp.o\x1b[0m\n'}
+[15.098302] (gary_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/dual_loop_pid_with_filter__type_support.cpp.o\x1b[0m\n'}
+[15.112820] (gary_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/auto_aim_debug__type_support_c.cpp.o\x1b[0m\n'}
+[15.160012] (-) TimerEvent: {}
+[15.236875] (gary_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/pid__type_support_c.cpp.o\x1b[0m\n'}
+[15.242423] (gary_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/interactive_data_recv__type_support.cpp.o\x1b[0m\n'}
+[15.260140] (-) TimerEvent: {}
+[15.267298] (gary_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/srv/detail/dds_fastrtps/vision_mode_switch__type_support.cpp.o\x1b[0m\n'}
+[15.324960] (gary_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/pid_with_filter__type_support_c.cpp.o\x1b[0m\n'}
+[15.360126] (gary_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/dual_loop_pid__type_support_c.cpp.o\x1b[0m\n'}
+[15.360271] (-) TimerEvent: {}
+[15.364950] (gary_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/srv/detail/dds_fastrtps/reset_motor_position__type_support.cpp.o\x1b[0m\n'}
+[15.461778] (-) TimerEvent: {}
+[15.534191] (gary_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/dual_loop_pid_with_filter__type_support_c.cpp.o\x1b[0m\n'}
+[15.552820] (gary_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/srv/detail/vision_mode_switch__type_support_c.cpp.o\x1b[0m\n'}
+[15.561570] (gary_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/srv/detail/reset_motor_position__type_support_c.cpp.o\x1b[0m\n'}
+[15.561872] (-) TimerEvent: {}
+[15.567868] (gary_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/interactive_data_send__type_support.cpp.o\x1b[0m\n'}
+[15.662007] (-) TimerEvent: {}
+[15.673407] (gary_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/custom_controller__type_support.cpp.o\x1b[0m\n'}
+[15.709943] (gary_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libgary_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.762126] (-) TimerEvent: {}
+[15.767562] (gary_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/client_command__type_support.cpp.o\x1b[0m\n'}
+[15.776827] (gary_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/client_receive__type_support.cpp.o\x1b[0m\n'}
+[15.789996] (gary_msgs) StdoutLine: {'line': b'[ 82%] Built target gary_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[15.797491] (gary_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/image_transmitter__type_support.cpp.o\x1b[0m\n'}
+[15.807726] (gary_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libgary_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.855412] (gary_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/auto_aim__type_support.cpp.o\x1b[0m\n'}
+[15.862234] (-) TimerEvent: {}
+[15.938391] (gary_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/auto_aim_debug__type_support.cpp.o\x1b[0m\n'}
+[15.940402] (gary_msgs) StdoutLine: {'line': b'[ 84%] Built target gary_msgs__rosidl_typesupport_fastrtps_c\n'}
+[15.961479] (gary_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/pid__type_support.cpp.o\x1b[0m\n'}
+[15.962308] (-) TimerEvent: {}
+[16.024972] (gary_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/pid_with_filter__type_support.cpp.o\x1b[0m\n'}
+[16.062450] (-) TimerEvent: {}
+[16.081854] (gary_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/dual_loop_pid__type_support.cpp.o\x1b[0m\n'}
+[16.085342] (gary_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/dual_loop_pid_with_filter__type_support.cpp.o\x1b[0m\n'}
+[16.113080] (gary_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/srv/detail/vision_mode_switch__type_support.cpp.o\x1b[0m\n'}
+[16.160741] (gary_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/srv/detail/reset_motor_position__type_support.cpp.o\x1b[0m\n'}
+[16.162543] (-) TimerEvent: {}
+[16.262786] (-) TimerEvent: {}
+[16.363062] (-) TimerEvent: {}
+[16.364756] (gary_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libgary_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.411380] (gary_msgs) StdoutLine: {'line': b'[ 87%] Built target gary_msgs__rosidl_typesupport_introspection_cpp\n'}
+[16.421772] (gary_msgs) StdoutLine: {'line': b'[ 87%] Built target gary_msgs\n'}
+[16.433556] (gary_msgs) StdoutLine: {'line': b'[ 87%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[16.463274] (-) TimerEvent: {}
+[16.563623] (-) TimerEvent: {}
+[16.664416] (-) TimerEvent: {}
+[16.765828] (-) TimerEvent: {}
+[16.866707] (-) TimerEvent: {}
+[16.966951] (-) TimerEvent: {}
+[17.067198] (-) TimerEvent: {}
+[17.167438] (-) TimerEvent: {}
+[17.269252] (-) TimerEvent: {}
+[17.369595] (-) TimerEvent: {}
+[17.469931] (-) TimerEvent: {}
+[17.570827] (-) TimerEvent: {}
+[17.671841] (-) TimerEvent: {}
+[17.772195] (-) TimerEvent: {}
+[17.872466] (-) TimerEvent: {}
+[17.972737] (-) TimerEvent: {}
+[18.073150] (-) TimerEvent: {}
+[18.173466] (-) TimerEvent: {}
+[18.275856] (-) TimerEvent: {}
+[18.379298] (-) TimerEvent: {}
+[18.483752] (-) TimerEvent: {}
+[18.584214] (-) TimerEvent: {}
+[18.685854] (-) TimerEvent: {}
+[18.786199] (-) TimerEvent: {}
+[18.886860] (-) TimerEvent: {}
+[18.987612] (-) TimerEvent: {}
+[19.087863] (-) TimerEvent: {}
+[19.188138] (-) TimerEvent: {}
+[19.288397] (-) TimerEvent: {}
+[19.390693] (-) TimerEvent: {}
+[19.495615] (-) TimerEvent: {}
+[19.596028] (-) TimerEvent: {}
+[19.697982] (-) TimerEvent: {}
+[19.801838] (-) TimerEvent: {}
+[19.904349] (-) TimerEvent: {}
+[20.009213] (-) TimerEvent: {}
+[20.114068] (-) TimerEvent: {}
+[20.214321] (-) TimerEvent: {}
+[20.317636] (-) TimerEvent: {}
+[20.417958] (-) TimerEvent: {}
+[20.518210] (-) TimerEvent: {}
+[20.618464] (-) TimerEvent: {}
+[20.718732] (-) TimerEvent: {}
+[20.818991] (-) TimerEvent: {}
+[20.919848] (-) TimerEvent: {}
+[21.020905] (-) TimerEvent: {}
+[21.121228] (-) TimerEvent: {}
+[21.221471] (-) TimerEvent: {}
+[21.322808] (-) TimerEvent: {}
+[21.423069] (-) TimerEvent: {}
+[21.485941] (gary_msgs) StdoutLine: {'line': b'[ 87%] Built target gary_msgs__py\n'}
+[21.498053] (gary_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_dr16_receiver_s.c.o\x1b[0m\n'}
+[21.498229] (gary_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_game_status_s.c.o\x1b[0m\n'}
+[21.498276] (gary_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_game_result_s.c.o\x1b[0m\n'}
+[21.498310] (gary_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_robot_hp_s.c.o\x1b[0m\n'}
+[21.502057] (gary_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_field_events_s.c.o\x1b[0m\n'}
+[21.502319] (gary_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_icra_buff_debuff_zone_and_lurk_status_s.c.o\x1b[0m\n'}
+[21.523184] (-) TimerEvent: {}
+[21.560623] (gary_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_supply_projectile_action_s.c.o\x1b[0m\n'}
+[21.560917] (gary_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_supply_projectile_request_s.c.o\x1b[0m\n'}
+[21.587418] (gary_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_referee_warning_s.c.o\x1b[0m\n'}
+[21.589621] (gary_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_dart_remaining_time_s.c.o\x1b[0m\n'}
+[21.617467] (gary_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_robot_status_s.c.o\x1b[0m\n'}
+[21.620254] (gary_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_power_heat_s.c.o\x1b[0m\n'}
+[21.623284] (-) TimerEvent: {}
+[21.625640] (gary_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_robot_position_s.c.o\x1b[0m\n'}
+[21.641194] (gary_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_robot_buff_s.c.o\x1b[0m\n'}
+[21.686011] (gary_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_aerial_robot_energy_s.c.o\x1b[0m\n'}
+[21.688918] (gary_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_robot_hurt_s.c.o\x1b[0m\n'}
+[21.705551] (gary_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_shoot_data_s.c.o\x1b[0m\n'}
+[21.710696] (gary_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_bullet_remaining_s.c.o\x1b[0m\n'}
+[21.717179] (gary_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_rfid_status_s.c.o\x1b[0m\n'}
+[21.723416] (-) TimerEvent: {}
+[21.746663] (gary_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_dart_client_cmd_s.c.o\x1b[0m\n'}
+[21.757933] (gary_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_interactive_data_recv_s.c.o\x1b[0m\n'}
+[21.800860] (gary_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_interactive_data_send_s.c.o\x1b[0m\n'}
+[21.804451] (gary_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_custom_controller_s.c.o\x1b[0m\n'}
+[21.821751] (gary_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_client_command_s.c.o\x1b[0m\n'}
+[21.823493] (-) TimerEvent: {}
+[21.826790] (gary_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_image_transmitter_s.c.o\x1b[0m\n'}
+[21.828613] (gary_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_client_receive_s.c.o\x1b[0m\n'}
+[21.872689] (gary_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_auto_aim_s.c.o\x1b[0m\n'}
+[21.875849] (gary_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_auto_aim_debug_s.c.o\x1b[0m\n'}
+[21.888860] (gary_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_pid_s.c.o\x1b[0m\n'}
+[21.892948] (gary_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_pid_with_filter_s.c.o\x1b[0m\n'}
+[21.903521] (gary_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_dual_loop_pid_with_filter_s.c.o\x1b[0m\n'}
+[21.918812] (gary_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_dual_loop_pid_s.c.o\x1b[0m\n'}
+[21.923599] (-) TimerEvent: {}
+[21.955634] (gary_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/srv/_vision_mode_switch_s.c.o\x1b[0m\n'}
+[21.960326] (gary_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/srv/_reset_motor_position_s.c.o\x1b[0m\n'}
+[22.023716] (-) TimerEvent: {}
+[22.024831] (gary_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gary_msgs/libgary_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[22.051961] (gary_msgs) StdoutLine: {'line': b'[ 99%] Built target gary_msgs__rosidl_generator_py\n'}
+[22.062430] (gary_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gary_msgs/_gary_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[22.062953] (gary_msgs) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gary_msgs/_gary_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[22.063011] (gary_msgs) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gary_msgs/_gary_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[22.123829] (-) TimerEvent: {}
+[22.177875] (gary_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gary_msgs/gary_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[22.178016] (gary_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gary_msgs/gary_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[22.179583] (gary_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gary_msgs/gary_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[22.200458] (gary_msgs) StdoutLine: {'line': b'[100%] Built target gary_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[22.201287] (gary_msgs) StdoutLine: {'line': b'[100%] Built target gary_msgs__rosidl_typesupport_c__pyext\n'}
+[22.202237] (gary_msgs) StdoutLine: {'line': b'[100%] Built target gary_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[22.209504] (gary_msgs) JobEnded: {'identifier': 'gary_msgs', 'rc': 'SIGINT'}
+[22.220116] (armor_detector) JobSkipped: {'identifier': 'armor_detector'}
+[22.220179] (armor_tracker) JobSkipped: {'identifier': 'armor_tracker'}
+[22.220191] (change_to_autoaim) JobSkipped: {'identifier': 'change_to_autoaim'}
+[22.220201] (rm_auto_aim) JobSkipped: {'identifier': 'rm_auto_aim'}
+[22.220210] (-) EventReactorShutdown: {}

@@ -1,0 +1,320 @@
+[0.022s] Invoking command in '/home/huhao/rm_vision/build/gary_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huhao/rm_vision/build/gary_msgs -- -j6 -l6
+[0.097s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.122s] [  1%] Built target ament_cmake_python_copy_gary_msgs
+[0.123s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.380s] running egg_info
+[0.381s] creating gary_msgs.egg-info
+[0.381s] writing gary_msgs.egg-info/PKG-INFO
+[0.381s] writing dependency_links to gary_msgs.egg-info/dependency_links.txt
+[0.381s] writing top-level names to gary_msgs.egg-info/top_level.txt
+[0.381s] writing manifest file 'gary_msgs.egg-info/SOURCES.txt'
+[0.386s] reading manifest file 'gary_msgs.egg-info/SOURCES.txt'
+[0.387s] writing manifest file 'gary_msgs.egg-info/SOURCES.txt'
+[0.444s] [  1%] Built target ament_cmake_python_build_gary_msgs_egg
+[5.882s] [  1%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/dr16_receiver__functions.c.o[0m
+[5.886s] [  1%] Built target gary_msgs__cpp
+[5.903s] [  1%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/game_status__functions.c.o[0m
+[5.904s] [  2%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/game_result__functions.c.o[0m
+[5.904s] [  2%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/robot_hp__functions.c.o[0m
+[5.904s] [  2%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/icra_buff_debuff_zone_and_lurk_status__functions.c.o[0m
+[5.906s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.015s] [  2%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/supply_projectile_action__functions.c.o[0m
+[6.015s] [  3%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/field_events__functions.c.o[0m
+[6.021s] [  3%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/supply_projectile_request__functions.c.o[0m
+[6.061s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.062s] [  5%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/referee_warning__functions.c.o[0m
+[6.105s] [  5%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/dart_remaining_time__functions.c.o[0m
+[6.126s] [  5%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/robot_status__functions.c.o[0m
+[6.132s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.190s] [  7%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/power_heat__functions.c.o[0m
+[6.240s] [  7%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/robot_position__functions.c.o[0m
+[6.295s] [  7%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/robot_buff__functions.c.o[0m
+[6.313s] [  8%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/aerial_robot_energy__functions.c.o[0m
+[6.408s] [  8%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/robot_hurt__functions.c.o[0m
+[6.444s] [  8%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/shoot_data__functions.c.o[0m
+[6.474s] [  9%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/bullet_remaining__functions.c.o[0m
+[6.546s] [  9%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/rfid_status__functions.c.o[0m
+[6.590s] [  9%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/dart_client_cmd__functions.c.o[0m
+[6.620s] [ 10%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/interactive_data_recv__functions.c.o[0m
+[6.653s] [ 10%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/interactive_data_send__functions.c.o[0m
+[6.693s] [ 10%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/custom_controller__functions.c.o[0m
+[6.737s] [ 11%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/client_command__functions.c.o[0m
+[6.775s] [ 11%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/client_receive__functions.c.o[0m
+[6.789s] [ 11%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/image_transmitter__functions.c.o[0m
+[6.841s] [ 12%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/auto_aim__functions.c.o[0m
+[6.905s] [ 12%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/pid__functions.c.o[0m
+[6.906s] [ 12%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/auto_aim_debug__functions.c.o[0m
+[6.954s] [ 13%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/pid_with_filter__functions.c.o[0m
+[6.974s] [ 13%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/dual_loop_pid__functions.c.o[0m
+[6.992s] [ 13%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/msg/detail/dual_loop_pid_with_filter__functions.c.o[0m
+[7.020s] [ 14%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/srv/detail/vision_mode_switch__functions.c.o[0m
+[7.053s] [ 14%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_c.dir/rosidl_generator_c/gary_msgs/srv/detail/reset_motor_position__functions.c.o[0m
+[7.129s] [ 14%] [32m[1mLinking C shared library libgary_msgs__rosidl_generator_c.so[0m
+[7.260s] [ 14%] Built target gary_msgs__rosidl_generator_c
+[7.298s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.318s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.331s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.357s] [ 18%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/dr16_receiver__type_support.cpp.o[0m
+[9.519s] [ 18%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/game_status__type_support.cpp.o[0m
+[9.690s] [ 18%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/game_result__type_support.cpp.o[0m
+[9.909s] [ 19%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/robot_hp__type_support.cpp.o[0m
+[9.980s] [ 19%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/dr16_receiver__type_support.cpp.o[0m
+[10.092s] [ 19%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/icra_buff_debuff_zone_and_lurk_status__type_support.cpp.o[0m
+[10.108s] [ 19%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/dr16_receiver__type_support.cpp.o[0m
+[10.242s] [ 19%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/game_status__type_support.cpp.o[0m
+[10.275s] [ 20%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/field_events__type_support.cpp.o[0m
+[10.313s] [ 20%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/dr16_receiver__type_support.cpp.o[0m
+[10.354s] [ 20%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/game_status__type_support.cpp.o[0m
+[10.379s] [ 21%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/game_result__type_support.cpp.o[0m
+[10.399s] [ 21%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/game_status__type_support.cpp.o[0m
+[10.404s] [ 21%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/robot_hp__type_support.cpp.o[0m
+[10.423s] [ 21%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/icra_buff_debuff_zone_and_lurk_status__type_support.cpp.o[0m
+[10.443s] [ 22%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/field_events__type_support.cpp.o[0m
+[10.462s] [ 22%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/supply_projectile_action__type_support.cpp.o[0m
+[10.467s] [ 22%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/supply_projectile_action__type_support.cpp.o[0m
+[10.481s] [ 23%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/game_result__type_support.cpp.o[0m
+[10.483s] [ 23%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/supply_projectile_request__type_support.cpp.o[0m
+[10.504s] [ 24%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/referee_warning__type_support.cpp.o[0m
+[10.524s] [ 24%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/dart_remaining_time__type_support.cpp.o[0m
+[10.545s] [ 24%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/robot_status__type_support.cpp.o[0m
+[10.564s] [ 25%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/power_heat__type_support.cpp.o[0m
+[10.595s] [ 25%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/robot_position__type_support.cpp.o[0m
+[10.643s] [ 25%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/supply_projectile_request__type_support.cpp.o[0m
+[10.644s] [ 25%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/robot_buff__type_support.cpp.o[0m
+[10.656s] [ 26%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/game_result__type_support.cpp.o[0m
+[10.733s] [ 27%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/aerial_robot_energy__type_support.cpp.o[0m
+[10.741s] [ 27%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/dr16_receiver__type_support.c.o[0m
+[10.770s] [ 27%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/robot_hp__type_support.cpp.o[0m
+[10.780s] [ 27%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/robot_hurt__type_support.cpp.o[0m
+[10.818s] [ 27%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/game_status__type_support.c.o[0m
+[10.822s] [ 27%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/shoot_data__type_support.cpp.o[0m
+[10.843s] [ 28%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/referee_warning__type_support.cpp.o[0m
+[10.865s] [ 29%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/bullet_remaining__type_support.cpp.o[0m
+[10.886s] [ 30%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/game_result__type_support.c.o[0m
+[10.891s] [ 30%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/rfid_status__type_support.cpp.o[0m
+[10.927s] [ 30%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/dart_client_cmd__type_support.cpp.o[0m
+[10.940s] [ 30%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/robot_hp__type_support.c.o[0m
+[10.948s] [ 31%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/interactive_data_recv__type_support.cpp.o[0m
+[10.949s] [ 31%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/robot_hp__type_support.cpp.o[0m
+[10.969s] [ 31%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/interactive_data_send__type_support.cpp.o[0m
+[10.977s] [ 31%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/dr16_receiver__type_support_c.cpp.o[0m
+[10.994s] [ 31%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/custom_controller__type_support.cpp.o[0m
+[11.002s] [ 31%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/icra_buff_debuff_zone_and_lurk_status__type_support.c.o[0m
+[11.011s] [ 31%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/dart_remaining_time__type_support.cpp.o[0m
+[11.026s] [ 32%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/client_command__type_support.cpp.o[0m
+[11.027s] [ 33%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/field_events__type_support.c.o[0m
+[11.051s] [ 33%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/icra_buff_debuff_zone_and_lurk_status__type_support.cpp.o[0m
+[11.061s] [ 33%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/supply_projectile_action__type_support.c.o[0m
+[11.068s] [ 33%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/client_receive__type_support.cpp.o[0m
+[11.087s] [ 33%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/image_transmitter__type_support.cpp.o[0m
+[11.108s] [ 34%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/auto_aim__type_support.cpp.o[0m
+[11.122s] [ 34%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/supply_projectile_request__type_support.c.o[0m
+[11.128s] [ 34%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/auto_aim_debug__type_support.cpp.o[0m
+[11.172s] [ 34%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/pid__type_support.cpp.o[0m
+[11.189s] [ 35%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/referee_warning__type_support.c.o[0m
+[11.202s] [ 36%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/pid_with_filter__type_support.cpp.o[0m
+[11.205s] [ 36%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/robot_status__type_support.cpp.o[0m
+[11.215s] [ 36%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/game_status__type_support_c.cpp.o[0m
+[11.220s] [ 36%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/icra_buff_debuff_zone_and_lurk_status__type_support.cpp.o[0m
+[11.227s] [ 36%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/dart_remaining_time__type_support.c.o[0m
+[11.236s] [ 36%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/dual_loop_pid__type_support.cpp.o[0m
+[11.257s] [ 36%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/msg/dual_loop_pid_with_filter__type_support.cpp.o[0m
+[11.278s] [ 36%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/robot_status__type_support.c.o[0m
+[11.285s] [ 37%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/srv/vision_mode_switch__type_support.cpp.o[0m
+[11.310s] [ 37%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gary_msgs/srv/reset_motor_position__type_support.cpp.o[0m
+[11.322s] [ 38%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/field_events__type_support.cpp.o[0m
+[11.327s] [ 39%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/power_heat__type_support.c.o[0m
+[11.349s] [ 39%] [32m[1mLinking CXX shared library libgary_msgs__rosidl_typesupport_c.so[0m
+[11.353s] [ 39%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/robot_position__type_support.c.o[0m
+[11.383s] [ 40%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/power_heat__type_support.cpp.o[0m
+[11.394s] [ 41%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/robot_buff__type_support.c.o[0m
+[11.400s] [ 41%] Built target gary_msgs__rosidl_typesupport_c
+[11.416s] [ 41%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/aerial_robot_energy__type_support.c.o[0m
+[11.423s] [ 41%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/robot_hurt__type_support.c.o[0m
+[11.440s] [ 42%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/shoot_data__type_support.c.o[0m
+[11.449s] [ 43%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/game_result__type_support_c.cpp.o[0m
+[11.464s] [ 43%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/bullet_remaining__type_support.c.o[0m
+[11.471s] [ 43%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/rfid_status__type_support.c.o[0m
+[11.502s] [ 44%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/dart_client_cmd__type_support.c.o[0m
+[11.516s] [ 44%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/interactive_data_recv__type_support.c.o[0m
+[11.527s] [ 45%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/field_events__type_support.cpp.o[0m
+[11.541s] [ 45%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/interactive_data_send__type_support.c.o[0m
+[11.543s] [ 46%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/custom_controller__type_support.c.o[0m
+[11.548s] [ 46%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/robot_position__type_support.cpp.o[0m
+[11.562s] [ 46%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/supply_projectile_action__type_support.cpp.o[0m
+[11.567s] [ 46%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/client_command__type_support.c.o[0m
+[11.590s] [ 46%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/client_receive__type_support.c.o[0m
+[11.590s] [ 47%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/image_transmitter__type_support.c.o[0m
+[11.612s] [ 47%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/auto_aim__type_support.c.o[0m
+[11.650s] [ 47%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/auto_aim_debug__type_support.c.o[0m
+[11.667s] [ 48%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/pid__type_support.c.o[0m
+[11.676s] [ 48%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/pid_with_filter__type_support.c.o[0m
+[11.686s] [ 48%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/robot_hp__type_support_c.cpp.o[0m
+[11.704s] [ 48%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/robot_buff__type_support.cpp.o[0m
+[11.710s] [ 48%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/dual_loop_pid__type_support.c.o[0m
+[11.714s] [ 49%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c.o[0m
+[11.752s] [ 49%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/srv/detail/vision_mode_switch__type_support.c.o[0m
+[11.756s] [ 49%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gary_msgs/srv/detail/reset_motor_position__type_support.c.o[0m
+[11.783s] [ 49%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/supply_projectile_action__type_support.cpp.o[0m
+[11.783s] [ 49%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/supply_projectile_request__type_support.cpp.o[0m
+[11.795s] [ 49%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/supply_projectile_request__type_support.cpp.o[0m
+[11.800s] [ 50%] [32m[1mLinking C shared library libgary_msgs__rosidl_typesupport_introspection_c.so[0m
+[11.868s] [ 50%] Built target gary_msgs__rosidl_typesupport_introspection_c
+[11.873s] [ 51%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/aerial_robot_energy__type_support.cpp.o[0m
+[11.878s] [ 51%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/robot_hurt__type_support.cpp.o[0m
+[11.918s] [ 51%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/icra_buff_debuff_zone_and_lurk_status__type_support_c.cpp.o[0m
+[12.079s] [ 52%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/referee_warning__type_support.cpp.o[0m
+[12.082s] [ 52%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/dart_remaining_time__type_support.cpp.o[0m
+[12.088s] [ 52%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/shoot_data__type_support.cpp.o[0m
+[12.098s] [ 53%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/referee_warning__type_support.cpp.o[0m
+[12.105s] [ 54%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/bullet_remaining__type_support.cpp.o[0m
+[12.242s] [ 55%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/field_events__type_support_c.cpp.o[0m
+[12.256s] [ 55%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/rfid_status__type_support.cpp.o[0m
+[12.321s] [ 55%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o[0m
+[12.322s] [ 56%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/power_heat__type_support.cpp.o[0m
+[12.328s] [ 56%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/dart_client_cmd__type_support.cpp.o[0m
+[12.402s] [ 56%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/dart_remaining_time__type_support.cpp.o[0m
+[12.484s] [ 57%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/interactive_data_recv__type_support.cpp.o[0m
+[12.495s] [ 57%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/interactive_data_send__type_support.cpp.o[0m
+[12.500s] [ 57%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/supply_projectile_action__type_support_c.cpp.o[0m
+[12.578s] [ 57%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/robot_position__type_support.cpp.o[0m
+[12.601s] [ 57%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/robot_buff__type_support.cpp.o[0m
+[12.667s] [ 57%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/robot_status__type_support.cpp.o[0m
+[12.698s] [ 57%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/custom_controller__type_support.cpp.o[0m
+[12.707s] [ 57%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/supply_projectile_request__type_support_c.cpp.o[0m
+[12.712s] [ 58%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/client_command__type_support.cpp.o[0m
+[12.883s] [ 58%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/client_receive__type_support.cpp.o[0m
+[12.890s] [ 59%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/aerial_robot_energy__type_support.cpp.o[0m
+[12.912s] [ 59%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/robot_hurt__type_support.cpp.o[0m
+[12.932s] [ 60%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/power_heat__type_support.cpp.o[0m
+[12.949s] [ 60%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/image_transmitter__type_support.cpp.o[0m
+[13.036s] [ 61%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/auto_aim__type_support.cpp.o[0m
+[13.116s] [ 61%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/auto_aim_debug__type_support.cpp.o[0m
+[13.120s] [ 62%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/referee_warning__type_support_c.cpp.o[0m
+[13.144s] [ 62%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/shoot_data__type_support.cpp.o[0m
+[13.155s] [ 63%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/bullet_remaining__type_support.cpp.o[0m
+[13.187s] [ 63%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/robot_position__type_support.cpp.o[0m
+[13.197s] [ 63%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/pid__type_support.cpp.o[0m
+[13.276s] [ 64%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/pid_with_filter__type_support.cpp.o[0m
+[13.374s] [ 64%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/dart_remaining_time__type_support_c.cpp.o[0m
+[13.389s] [ 64%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/dart_client_cmd__type_support.cpp.o[0m
+[13.398s] [ 64%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/rfid_status__type_support.cpp.o[0m
+[13.433s] [ 64%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/dual_loop_pid__type_support.cpp.o[0m
+[13.451s] [ 64%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/msg/dual_loop_pid_with_filter__type_support.cpp.o[0m
+[13.499s] [ 64%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/robot_buff__type_support.cpp.o[0m
+[13.623s] [ 65%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/interactive_data_recv__type_support.cpp.o[0m
+[13.629s] [ 65%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/robot_status__type_support_c.cpp.o[0m
+[13.659s] [ 65%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/interactive_data_send__type_support.cpp.o[0m
+[13.695s] [ 66%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/srv/vision_mode_switch__type_support.cpp.o[0m
+[13.718s] [ 66%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gary_msgs/srv/reset_motor_position__type_support.cpp.o[0m
+[13.726s] [ 67%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/aerial_robot_energy__type_support.cpp.o[0m
+[13.825s] [ 68%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/power_heat__type_support_c.cpp.o[0m
+[13.917s] [ 68%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/robot_position__type_support_c.cpp.o[0m
+[13.922s] [ 68%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/custom_controller__type_support.cpp.o[0m
+[13.949s] [ 69%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/client_command__type_support.cpp.o[0m
+[13.955s] [ 69%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/robot_hurt__type_support.cpp.o[0m
+[13.982s] [ 69%] [32m[1mLinking CXX shared library libgary_msgs__rosidl_typesupport_cpp.so[0m
+[14.046s] [ 69%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/robot_buff__type_support_c.cpp.o[0m
+[14.053s] [ 69%] Built target gary_msgs__rosidl_typesupport_cpp
+[14.074s] [ 70%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/aerial_robot_energy__type_support_c.cpp.o[0m
+[14.120s] [ 70%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/robot_hurt__type_support_c.cpp.o[0m
+[14.171s] [ 70%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/shoot_data__type_support.cpp.o[0m
+[14.175s] [ 70%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/client_receive__type_support.cpp.o[0m
+[14.263s] [ 70%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/shoot_data__type_support_c.cpp.o[0m
+[14.309s] [ 70%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/image_transmitter__type_support.cpp.o[0m
+[14.313s] [ 71%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/bullet_remaining__type_support_c.cpp.o[0m
+[14.330s] [ 71%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/rfid_status__type_support_c.cpp.o[0m
+[14.388s] [ 72%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/bullet_remaining__type_support.cpp.o[0m
+[14.457s] [ 73%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/auto_aim__type_support.cpp.o[0m
+[14.499s] [ 73%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/dart_client_cmd__type_support_c.cpp.o[0m
+[14.590s] [ 74%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/interactive_data_recv__type_support_c.cpp.o[0m
+[14.593s] [ 74%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/auto_aim_debug__type_support.cpp.o[0m
+[14.628s] [ 74%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/interactive_data_send__type_support_c.cpp.o[0m
+[14.641s] [ 74%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/rfid_status__type_support.cpp.o[0m
+[14.747s] [ 74%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/pid__type_support.cpp.o[0m
+[14.779s] [ 74%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/custom_controller__type_support_c.cpp.o[0m
+[14.784s] [ 75%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/client_command__type_support_c.cpp.o[0m
+[14.848s] [ 75%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/client_receive__type_support_c.cpp.o[0m
+[14.856s] [ 76%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/pid_with_filter__type_support.cpp.o[0m
+[14.982s] [ 76%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/image_transmitter__type_support_c.cpp.o[0m
+[14.987s] [ 76%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/dart_client_cmd__type_support.cpp.o[0m
+[14.990s] [ 76%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/dual_loop_pid__type_support.cpp.o[0m
+[15.074s] [ 77%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/auto_aim__type_support_c.cpp.o[0m
+[15.091s] [ 77%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/msg/detail/dds_fastrtps/dual_loop_pid_with_filter__type_support.cpp.o[0m
+[15.105s] [ 77%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/auto_aim_debug__type_support_c.cpp.o[0m
+[15.230s] [ 78%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/pid__type_support_c.cpp.o[0m
+[15.235s] [ 79%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/interactive_data_recv__type_support.cpp.o[0m
+[15.260s] [ 80%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/srv/detail/dds_fastrtps/vision_mode_switch__type_support.cpp.o[0m
+[15.318s] [ 80%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/pid_with_filter__type_support_c.cpp.o[0m
+[15.353s] [ 80%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/dual_loop_pid__type_support_c.cpp.o[0m
+[15.358s] [ 80%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gary_msgs/srv/detail/dds_fastrtps/reset_motor_position__type_support.cpp.o[0m
+[15.527s] [ 81%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/msg/detail/dual_loop_pid_with_filter__type_support_c.cpp.o[0m
+[15.545s] [ 81%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/srv/detail/vision_mode_switch__type_support_c.cpp.o[0m
+[15.554s] [ 81%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gary_msgs/srv/detail/reset_motor_position__type_support_c.cpp.o[0m
+[15.560s] [ 81%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/interactive_data_send__type_support.cpp.o[0m
+[15.666s] [ 81%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/custom_controller__type_support.cpp.o[0m
+[15.702s] [ 81%] [32m[1mLinking CXX shared library libgary_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.760s] [ 82%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/client_command__type_support.cpp.o[0m
+[15.769s] [ 82%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/client_receive__type_support.cpp.o[0m
+[15.782s] [ 82%] Built target gary_msgs__rosidl_typesupport_fastrtps_cpp
+[15.790s] [ 82%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/image_transmitter__type_support.cpp.o[0m
+[15.800s] [ 83%] [32m[1mLinking CXX shared library libgary_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[15.848s] [ 84%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/auto_aim__type_support.cpp.o[0m
+[15.931s] [ 84%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/auto_aim_debug__type_support.cpp.o[0m
+[15.933s] [ 84%] Built target gary_msgs__rosidl_typesupport_fastrtps_c
+[15.954s] [ 84%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/pid__type_support.cpp.o[0m
+[16.018s] [ 85%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/pid_with_filter__type_support.cpp.o[0m
+[16.074s] [ 85%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/dual_loop_pid__type_support.cpp.o[0m
+[16.078s] [ 85%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/msg/detail/dual_loop_pid_with_filter__type_support.cpp.o[0m
+[16.106s] [ 86%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/srv/detail/vision_mode_switch__type_support.cpp.o[0m
+[16.153s] [ 86%] [32mBuilding CXX object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gary_msgs/srv/detail/reset_motor_position__type_support.cpp.o[0m
+[16.357s] [ 87%] [32m[1mLinking CXX shared library libgary_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[16.404s] [ 87%] Built target gary_msgs__rosidl_typesupport_introspection_cpp
+[16.414s] [ 87%] Built target gary_msgs
+[16.426s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.478s] [ 87%] Built target gary_msgs__py
+[21.491s] [ 88%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_dr16_receiver_s.c.o[0m
+[21.491s] [ 88%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_game_status_s.c.o[0m
+[21.491s] [ 88%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_game_result_s.c.o[0m
+[21.491s] [ 89%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_robot_hp_s.c.o[0m
+[21.494s] [ 89%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_field_events_s.c.o[0m
+[21.495s] [ 89%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_icra_buff_debuff_zone_and_lurk_status_s.c.o[0m
+[21.553s] [ 90%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_supply_projectile_action_s.c.o[0m
+[21.553s] [ 90%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_supply_projectile_request_s.c.o[0m
+[21.580s] [ 90%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_referee_warning_s.c.o[0m
+[21.582s] [ 91%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_dart_remaining_time_s.c.o[0m
+[21.610s] [ 91%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_robot_status_s.c.o[0m
+[21.613s] [ 91%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_power_heat_s.c.o[0m
+[21.618s] [ 92%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_robot_position_s.c.o[0m
+[21.634s] [ 92%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_robot_buff_s.c.o[0m
+[21.678s] [ 92%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_aerial_robot_energy_s.c.o[0m
+[21.682s] [ 93%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_robot_hurt_s.c.o[0m
+[21.698s] [ 93%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_shoot_data_s.c.o[0m
+[21.703s] [ 93%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_bullet_remaining_s.c.o[0m
+[21.710s] [ 94%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_rfid_status_s.c.o[0m
+[21.739s] [ 94%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_dart_client_cmd_s.c.o[0m
+[21.750s] [ 95%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_interactive_data_recv_s.c.o[0m
+[21.793s] [ 95%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_interactive_data_send_s.c.o[0m
+[21.797s] [ 95%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_custom_controller_s.c.o[0m
+[21.814s] [ 96%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_client_command_s.c.o[0m
+[21.819s] [ 96%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_image_transmitter_s.c.o[0m
+[21.821s] [ 96%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_client_receive_s.c.o[0m
+[21.865s] [ 97%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_auto_aim_s.c.o[0m
+[21.868s] [ 97%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_auto_aim_debug_s.c.o[0m
+[21.881s] [ 97%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_pid_s.c.o[0m
+[21.886s] [ 98%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_pid_with_filter_s.c.o[0m
+[21.896s] [ 98%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_dual_loop_pid_with_filter_s.c.o[0m
+[21.911s] [ 98%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/msg/_dual_loop_pid_s.c.o[0m
+[21.948s] [ 99%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/srv/_vision_mode_switch_s.c.o[0m
+[21.953s] [ 99%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_generator_py.dir/rosidl_generator_py/gary_msgs/srv/_reset_motor_position_s.c.o[0m
+[22.017s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/gary_msgs/libgary_msgs__rosidl_generator_py.so[0m
+[22.044s] [ 99%] Built target gary_msgs__rosidl_generator_py
+[22.055s] [ 99%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gary_msgs/_gary_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[22.055s] [100%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gary_msgs/_gary_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[22.055s] [100%] [32mBuilding C object CMakeFiles/gary_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gary_msgs/_gary_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[22.170s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gary_msgs/gary_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[22.170s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gary_msgs/gary_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[22.172s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gary_msgs/gary_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[22.193s] [100%] Built target gary_msgs__rosidl_typesupport_fastrtps_c__pyext
+[22.194s] [100%] Built target gary_msgs__rosidl_typesupport_c__pyext
+[22.195s] [100%] Built target gary_msgs__rosidl_typesupport_introspection_c__pyext

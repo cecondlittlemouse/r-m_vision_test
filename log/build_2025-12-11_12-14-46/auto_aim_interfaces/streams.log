@@ -1,0 +1,34 @@
+[0.023s] Invoking command in '/home/huhao/rm_vision/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huhao/rm_vision/build/auto_aim_interfaces -- -j6 -l6
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_generator_c[0m
+[0.080s] [  1%] Built target auto_aim_interfaces__cpp
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_cpp[0m
+[0.122s] [  1%] Built target ament_cmake_python_copy_auto_aim_interfaces
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.123s] [ 12%] Built target auto_aim_interfaces__rosidl_generator_c
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.157s] [ 24%] Built target auto_aim_interfaces__rosidl_typesupport_cpp
+[0.186s] [ 35%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.188s] [ 47%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_cpp
+[0.210s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_introspection_c[0m
+[0.237s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_c[0m
+[0.255s] [ 58%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c
+[0.279s] [ 71%] Built target auto_aim_interfaces__rosidl_typesupport_c
+[0.290s] [ 82%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c
+[0.339s] [ 82%] Built target auto_aim_interfaces
+[0.369s] [ 83%] Built target auto_aim_interfaces__py
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_generator_py[0m
+[0.388s] [ 93%] Built target auto_aim_interfaces__rosidl_generator_py
+[0.397s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.401s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.408s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_c__pyext[0m
+[0.417s] running egg_info
+[0.417s] writing auto_aim_interfaces.egg-info/PKG-INFO
+[0.417s] writing dependency_links to auto_aim_interfaces.egg-info/dependency_links.txt
+[0.418s] writing top-level names to auto_aim_interfaces.egg-info/top_level.txt
+[0.420s] reading manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[0.420s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[0.423s] [ 95%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.429s] [ 97%] Built target auto_aim_interfaces__rosidl_typesupport_c__pyext
+[0.429s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.447s] [100%] Built target ament_cmake_python_build_auto_aim_interfaces_egg

@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gary_msgs/msg/PowerHeat.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module gary_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains power and heat data received from the referee system")
+    struct PowerHeat {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "chassis output voltage, in volt")
+      float chassis_volt;
+
+      @verbatim (language="comment", text=
+        "chassis output current, in amp")
+      float chassis_current;
+
+      @verbatim (language="comment", text=
+        "chassis current power consumption, in watt")
+      float chassis_power;
+
+      @verbatim (language="comment", text=
+        "chassis power buffer, in joule")
+      uint16 chassis_power_buffer;
+
+      @verbatim (language="comment", text=
+        "shooter heat")
+      uint16 shooter_17mm_id1_heat;
+
+      uint16 shooter_17mm_id2_heat;
+
+      uint16 shooter_42mm_id1_heat;
+    };
+  };
+};

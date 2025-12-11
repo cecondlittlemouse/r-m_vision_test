@@ -1,0 +1,22 @@
+[0.023s] Invoking command in '/home/huhao/rm_vision/build/joint_tf_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huhao/rm_vision/build/joint_tf_publisher -- -j6 -l6
+[0.087s] [100%] Built target joint_tf_publisher
+[0.105s] Invoked command in '/home/huhao/rm_vision/build/joint_tf_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huhao/rm_vision/build/joint_tf_publisher -- -j6 -l6
+[0.106s] Invoking command in '/home/huhao/rm_vision/build/joint_tf_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huhao/rm_vision/build/joint_tf_publisher
+[0.119s] -- Install configuration: ""
+[0.119s] -- Up-to-date: /home/huhao/rm_vision/install/joint_tf_publisher/lib/joint_tf_publisher/joint_tf_publisher
+[0.123s] -- Up-to-date: /home/huhao/rm_vision/install/joint_tf_publisher/share/ament_index/resource_index/package_run_dependencies/joint_tf_publisher
+[0.123s] -- Up-to-date: /home/huhao/rm_vision/install/joint_tf_publisher/share/ament_index/resource_index/parent_prefix_path/joint_tf_publisher
+[0.123s] -- Up-to-date: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/environment/ament_prefix_path.sh
+[0.123s] -- Up-to-date: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/environment/ament_prefix_path.dsv
+[0.124s] -- Up-to-date: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/environment/path.sh
+[0.124s] -- Up-to-date: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/environment/path.dsv
+[0.124s] -- Up-to-date: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/local_setup.bash
+[0.124s] -- Up-to-date: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/local_setup.sh
+[0.124s] -- Up-to-date: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/local_setup.zsh
+[0.124s] -- Up-to-date: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/local_setup.dsv
+[0.124s] -- Installing: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/package.dsv
+[0.124s] -- Up-to-date: /home/huhao/rm_vision/install/joint_tf_publisher/share/ament_index/resource_index/packages/joint_tf_publisher
+[0.124s] -- Up-to-date: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/cmake/joint_tf_publisherConfig.cmake
+[0.124s] -- Up-to-date: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/cmake/joint_tf_publisherConfig-version.cmake
+[0.124s] -- Up-to-date: /home/huhao/rm_vision/install/joint_tf_publisher/share/joint_tf_publisher/package.xml
+[0.124s] Invoked command in '/home/huhao/rm_vision/build/joint_tf_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huhao/rm_vision/build/joint_tf_publisher

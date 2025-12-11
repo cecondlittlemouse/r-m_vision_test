@@ -1,0 +1,3 @@
+Invoking command in '/home/huhao/rm_vision/build/gary_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huhao/rm_vision/build/gary_msgs -- -j6 -l6
+Invoked command in '/home/huhao/rm_vision/build/gary_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huhao/rm_vision/build/gary_msgs -- -j6 -l6
+Invoking command in '/home/huhao/rm_vision/build/gary_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huhao/rm_vision/build/gary_msgs

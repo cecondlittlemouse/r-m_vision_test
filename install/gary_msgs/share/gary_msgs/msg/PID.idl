@@ -1,0 +1,51 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gary_msgs/msg/PID.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module gary_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains PID controller data")
+    struct PID {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "parameters")
+      double kp;
+
+      double ki;
+
+      double kd;
+
+      @verbatim (language="comment", text=
+        "limitations")
+      double max_out;
+
+      double max_iout;
+
+      @verbatim (language="comment", text=
+        "status")
+      double set;
+
+      double feedback;
+
+      double error;
+
+      double error_sum;
+
+      double last_error;
+
+      @verbatim (language="comment", text=
+        "output")
+      double pout;
+
+      double iout;
+
+      double dout;
+
+      double out;
+    };
+  };
+};

@@ -1,0 +1,18 @@
+[0.024s] Invoking command in '/home/huhao/rm_vision/build/camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huhao/rm_vision/build/camera -- -j6 -l6
+[0.073s] [ 33%] [32mBuilding CXX object CMakeFiles/camera.dir/src/CamNode.cpp.o[0m
+[0.082s] [ 66%] [32mBuilding CXX object CMakeFiles/camera.dir/src/CamWrapper.cpp.o[0m
+[0.353s] [01m[K/home/huhao/rm_vision/camera/src/CamWrapper.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kglog/logging.h: No such file or directory
+[0.353s]     8 | #include [01;31m[K<glog/logging.h>[m[K
+[0.353s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.353s] compilation terminated.
+[0.358s] gmake[2]: *** [CMakeFiles/camera.dir/build.make:90: CMakeFiles/camera.dir/src/CamWrapper.cpp.o] Error 1
+[0.358s] gmake[2]: *** Waiting for unfinished jobs....
+[0.419s] In file included from [01m[K/home/huhao/rm_vision/camera/src/CamNode.cpp:25[m[K:
+[0.419s] [01m[K/home/huhao/rm_vision/camera/include/CamWrapperDH.h:8:10:[m[K [01;31m[Kfatal error: [m[Kglog/logging.h: No such file or directory
+[0.419s]     8 | #include [01;31m[K<glog/logging.h>[m[K
+[0.420s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.420s] compilation terminated.
+[0.424s] gmake[2]: *** [CMakeFiles/camera.dir/build.make:76: CMakeFiles/camera.dir/src/CamNode.cpp.o] Error 1
+[0.425s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera.dir/all] Error 2
+[0.425s] gmake: *** [Makefile:146: all] Error 2
+[0.433s] Invoked command in '/home/huhao/rm_vision/build/camera' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huhao/rm_vision/build/camera -- -j6 -l6
